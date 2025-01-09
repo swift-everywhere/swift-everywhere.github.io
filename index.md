@@ -11,8 +11,14 @@ Items
 <p>
 
 <pre>
-{% for object in items %}
-  {{ object | inspect }} 
+{% for object in items | sort: 'stars' %}
+<dl>
+  {% for object in objects %}
+  <dt>Object names: {{ object }}</dt>
+      <dd>propertyA: {{ object.propertyA }}</dd>
+      <dd>propertyB: {{ object.propertyB }}</dd>
+  {% endfor %}
+</dl>
 {% endfor %}
 </pre>
 
