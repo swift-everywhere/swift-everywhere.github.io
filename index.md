@@ -8,7 +8,7 @@ title: Swift Everywhere – Android Build Status
 <small>
 This site acts as a supplement to the
 <a href="https://swiftpackageindex.com">Swift Package Index</a>
-by providing build status for additional platforms, such as
+by providing build status for additional platforms such as
 <a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/3461">Android</a>,
 <a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/1354">Windows</a>,
 and <a href="https://www.swift.org/documentation/articles/static-linux-getting-started.html">Musl</a>. 
@@ -28,26 +28,25 @@ are successfully building for Android.
 
 <table>
 <tr>
-<th>Name</th>
-<th>Status</th>
-<th>Stars</th>
-<th>Build Log</th>
+    <th>Repository</th>
+    <th>Status</th>
+    <th>Stars</th>
 </tr>
-{% for object in items %}
-    <tr>
-    {% assign value = object %}
+{% for value in items %}
+<tr style="background-color: {% if value.status == 'success' %}#e6ffe6{% else %}#ffe6e6{% endif %};">
+<tr>
     <td><a href="{{ value.repo }}">{{ value.repo }}</a></td>
-    <td>{{ value.status }}</td>
+    <td><a href="https://github.com/swift-everywhere/swift-package-builds/actions/runs/{{ value.runid }}>">{{ value.status }}</a></td>
     <td>{{ value.stars }}</td>
-    <td><a href="https://github.com/swift-everywhere/swift-package-builds/actions/runs/{{ value.runid }}>">{{ value.runid }}</a></td>
     <!--
     <td>{{ value.created }}</td>
     <td>{{ value.modified }}</td>
     -->
-    </tr>
+</tr>
 {% endfor %}
 </table>
 
+<hr />
 <h3>Windows Build Status: Coming Soon!</h3>
 <hr />
 <h3>Musl Build Status: Coming Soon!</h3>
