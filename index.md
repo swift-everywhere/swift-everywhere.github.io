@@ -4,14 +4,14 @@ title: Swift Everywhere: Android Build Status
 ---
 <h1>{{ page.title }}</h1>
 
-{% assign items = site.data.android %}
+{% assign items = site.data.android | last %}
 
 <p>
 List of Android builds
 <p>
 
 <dl>
-{% for object in items | last %}
+{% for object in items %}
   <dt>Object names: {{ object }}</dt>
       <dd>repo: {{ object.repo }}</dd>
       <dd>created: {{ object.created }}</dd>
