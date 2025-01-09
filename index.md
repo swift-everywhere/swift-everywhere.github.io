@@ -4,17 +4,20 @@ title: Swift Everywhere: Android Build Status
 ---
 <h1>{{ page.title }}</h1>
 
-{% assign items = site.data.android %}
+{% assign items = site.data.android | sort: 'stars' %}
 
 <p>
 List of Android builds
 <p>
 
 <dl>
-{% for object in items | sort: 'stars' %}
+{% for object in items %}
   <dt>Object names: {{ object }}</dt>
-      <dd>propertyA: {{ object.propertyA }}</dd>
-      <dd>propertyB: {{ object.propertyB }}</dd>
+      <dd>repo: {{ object.repo }}</dd>
+      <dd>created: {{ object.created }}</dd>
+      <dd>modified: {{ object.modified }}</dd>
+      <dd>stars: {{ object.stars }}</dd>
+      <dd>status: {{ object.status }}</dd>
 {% endfor %}
 
 
