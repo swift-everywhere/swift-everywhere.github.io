@@ -3,8 +3,6 @@ layout: default
 title: Swift Everywhere – Android Build Status
 ---
 
-<h2>{{ page.title }}</h2>
-
 <div>
 <p>
 <small>
@@ -28,8 +26,6 @@ Of the <b>{{ stats.total_packages | number_format:"#,##0" }}</b> packages that a
 <b>{{ stats.success_packages | number_format:"#,##0" }}</b>
 are successfully building for Android.
 
-<h3>Build Status by Repository</h3>
-
 <table>
 <tr>
 <th>Name</th>
@@ -52,6 +48,12 @@ are successfully building for Android.
 {% endfor %}
 </table>
 
+<h3>Windows Build Status: Coming Soon!</h3>
+<hr />
+<h3>Musl Build Status: Coming Soon!</h3>
+<hr />
+
+<div>
 <p>
 <small>
 This page is automatically updated by a GitHub action running at
@@ -59,3 +61,4 @@ This page is automatically updated by a GitHub action running at
 It was last generated at {{ site.time | date_to_string }}.
 </small>
 </p>
+</div>
