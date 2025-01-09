@@ -11,7 +11,7 @@ List of Android builds
 <p>
 
 <dl>
-{% for object in items %}
+{% for object in items.values %}
   <dt>Object names: {{ object }}</dt>
       <dd>repo: {{ object.repo }}</dd>
       <dd>created: {{ object.created }}</dd>
