@@ -2,7 +2,6 @@
 layout: default
 title: Swift Everywhere: Android Build Status
 ---
-{% raw %}
 <h1>{{ page.title }}</h1>
 
 {% assign items = site.data.android | map: 'value' %}
@@ -26,4 +25,3 @@ title: Swift Everywhere: Android Build Status
     {% endfor %}
   </tbody>
 </table>
-{% endraw %}
