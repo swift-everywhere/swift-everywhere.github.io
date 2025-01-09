@@ -23,16 +23,19 @@ yet supported, such as
 {% assign items = site.data.android %}
 {% assign stats = site.data.android_stats %}
 
-Of the <b>{{ stats.total_packages | number_with_delimiter }}</b> packages that are being successfully built for
+Of the <b>{{ stats.total_packages | number: "%,d" }}</b> packages that are successfully building for
 <a href="https://swiftpackageindex.com/search?query=platform:linux">Linux</a>,
-<b>{{ stats.success_packages | number_with_delimiter }}</b>
+<b>{{ stats.success_packages | number: "%,d" }}</b>
 are successfully building for Android.
+
+<h3>Build Status by Repository</h3>
 
 <table>
 <tr>
 <th>Name</th>
 <th>Status</th>
 <th>Stars</th>
+<th>Build Log</th>
 </tr>
 {% for object in items %}
     <tr>
@@ -40,6 +43,7 @@ are successfully building for Android.
     <td><a href="{{ value.repo }}">{{ value.repo }}</a></td>
     <td>{{ value.status }}</td>
     <td>{{ value.stars }}</td>
+    <td><a href="https://github.com/swift-everywhere/swift-package-builds/actions/runs/{{ value.runid }}>">{{ value.runid }}</a></td>
     <!--
     <td>{{ value.created }}</td>
     <td>{{ value.modified }}</td>
