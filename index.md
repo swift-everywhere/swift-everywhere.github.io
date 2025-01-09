@@ -24,7 +24,8 @@ and <a href="https://www.swift.org/documentation/articles/static-linux-getting-s
 Of the <b>{{ stats.total_packages | number_format:"#,##0" }}</b> packages that are successfully building for
 <a href="https://swiftpackageindex.com/search?query=platform:linux">Linux</a>,
 <b>{{ stats.success_packages | number_format:"#,##0" }}</b>
-are successfully building for Android.
+are successfully building for Android using the
+<a href="https://github.com/marketplace/actions/swift-android-action">GitHub swift-android-action</a>.
 
 <table>
 <tr>
