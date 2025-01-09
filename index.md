@@ -12,7 +12,7 @@ List of Android builds
 
 <dl>
 {% for object in items %}
-  {% assign value = object[1] %}
+  {% assign value = object %}
   <dt>Object names: {{ value }}</dt>
       <dd>repo: {{ value.repo }}</dd>
       <dd>created: {{ value.created }}</dd>
