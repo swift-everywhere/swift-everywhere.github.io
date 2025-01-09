@@ -7,11 +7,11 @@ title: Swift Everywhere: Android Build Status
 {% assign items = site.data.android %}
 
 <p>
-ITEMS: {{ items }}
+Items
 <p>
 
 <pre>
-{% for object in site.data.objectsandproperties %}
+{% for object in items.objectsandproperties %}
   {{ object | inspect }} 
 {% endfor %}
 </pre>
