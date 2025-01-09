@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Swift Everywhere: Android Build Status
+title: Swift Everywhere – Android Build Status
 ---
 
-<h1>{{ page.title }}</h1>
+<h2>{{ page.title }}</h2>
 
 <div>
 <p>
 <small>
-This page acts as a supplement to the
+This site acts as a supplement to the
 <a href="https://swiftpackageindex.com">Swift Package Index</a>
 by providing build status for alternative platforms that are not
 yet supported, such as
@@ -18,7 +18,7 @@ yet supported, such as
 </p>
 </div>
 
-<h2>Android Build Status</h2>
+<h2>Android Build Status: {{ stats.success_packages | times: 100 | divided_by: stats.total_packages }}%</h2>
 
 {% assign items = site.data.android %}
 {% assign stats = site.data.android_stats %}
