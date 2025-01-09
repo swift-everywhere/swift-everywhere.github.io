@@ -48,5 +48,5 @@ built for Android.
 <p>
 This page is automatically updated by a GitHub action running at
 <a href="https://github.com/swift-everywhere/swift-package-builds">https://github.com/swift-everywhere/swift-package-builds</a>.
-It was last generated at {%- site.time | date_to_string -%}.
+It was last generated at {{ site.time | date_to_string }}.
 </p>
