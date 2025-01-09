@@ -10,10 +10,10 @@ title: Swift Everywhere – Android Build Status
 <small>
 This site acts as a supplement to the
 <a href="https://swiftpackageindex.com">Swift Package Index</a>
-by providing build status for alternative platforms that are not
-yet supported, such as
-<a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/3461">Android</a> and
-<a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/1354">Windows</a>. 
+by providing build status for additional platforms, such as
+<a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/3461">Android</a>,
+<a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/1354">Windows</a>,
+and <a href="https://www.swift.org/documentation/articles/static-linux-getting-started.html">Musl</a>. 
 </small>
 </p>
 </div>
@@ -21,7 +21,7 @@ yet supported, such as
 {% assign items = site.data.android %}
 {% assign stats = site.data.android_stats %}
 
-<h2>Android Build Status: {{ stats.success_packages | times: 100 | divided_by: stats.total_packages }}%</h2>
+<h3>Android Build Status: {{ stats.success_packages | times: 100 | divided_by: stats.total_packages }}%</h3>
 
 Of the <b>{{ stats.total_packages | number_format:"#,##0" }}</b> packages that are successfully building for
 <a href="https://swiftpackageindex.com/search?query=platform:linux">Linux</a>,
