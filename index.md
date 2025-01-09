@@ -5,25 +5,28 @@ title: Swift Everywhere: Android Build Status
 
 <h1>{{ page.title }}</h1>
 
-
+<div>
 <p>
+<small>
 This page acts as a supplement to the
 <a href="https://swiftpackageindex.com">Swift Package Index</a>
 by providing build status for alternative platforms that are not
 yet supported, such as
 <a href="">Android</a> and
 <a href="">Windows</a>. 
+</small>
 <p>
+</div>
 
-## Android Build Status
+<h2>Android Build Status</h2>
 
 {% assign items = site.data.android %}
 {% assign stats = site.data.android_stats %}
 
-Of the {{ stats.total_packages | number_with_delimiter }} packages that are being successfully build
-for <a href="https://swiftpackageindex.com/search?query=platform:linux">Linux</a>,
-{{ stats.success_packages | number_with_delimiter }} are build successfully
-built for Android.
+Of the <b>{{ stats.total_packages | number_with_delimiter }}</b> packages that are being successfully built for
+<a href="https://swiftpackageindex.com/search?query=platform:linux">Linux</a>,
+<b>{{ stats.success_packages | number_with_delimiter }}</b>
+are successfully building for Android.
 
 <table>
 <tr>
@@ -46,7 +49,9 @@ built for Android.
 </table>
 
 <p>
+<small>
 This page is automatically updated by a GitHub action running at
 <a href="https://github.com/swift-everywhere/swift-package-builds">https://github.com/swift-everywhere/swift-package-builds</a>.
 It was last generated at {{ site.time | date_to_string }}.
+</small>
 </p>

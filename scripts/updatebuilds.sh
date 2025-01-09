@@ -1,11 +1,14 @@
 #!/bin/bash -e
+SCRIPT=$(realpath $0)
+cd $(dirname ${SCRIPT})/..
 
 cd ../swift-package-builds
 git pull
 cd -
 
 INDEX="../swift-package-builds/index/android.json"
-STATS="../swift-package-builds/index/android_stats.json"
+#STATS="../swift-package-builds/index/android_stats.json"
+STATS="_data/android_stats.json"
 
 cat ${INDEX} | jq 'to_entries | map(.value) | sort_by(.stars) | reverse' > _data/android.json
 
