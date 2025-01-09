@@ -7,8 +7,14 @@ title: Swift Everywhere: Android Build Status
 {% assign items = site.data.android %}
 
 <p>
-List of Android builds
+This page acts as a supplement to the
+<a href="https://swiftpackageindex.com">Swift Package Index</a>
+by providing build status for alternative platforms that are not
+yet supported, such as
+<a href="">Android</a> and
+<a href="">Windows</a>. 
 <p>
+
 
 <table>
 <tr>
@@ -30,5 +36,8 @@ List of Android builds
 {% endfor %}
 </table>
 
-
-
+<p>
+This page is automatically updated by a GitHub action running at
+<a href="https://github.com/swift-everywhere/swift-package-builds">https://github.com/swift-everywhere/swift-package-builds</a>.
+It was last generated at {%- page.date | date: date_format -%}.
+</p>
