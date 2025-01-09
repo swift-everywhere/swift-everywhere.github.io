@@ -2,9 +2,9 @@
 layout: default
 title: Swift Everywhere: Android Build Status
 ---
+
 <h1>{{ page.title }}</h1>
 
-{% assign items = site.data.android %}
 
 <p>
 This page acts as a supplement to the
@@ -15,6 +15,15 @@ yet supported, such as
 <a href="">Windows</a>. 
 <p>
 
+## Android Build Status
+
+{% assign items = site.data.android %}
+{% assign stats = site.data.android_stats %}
+
+Of the {{ stats.total_packages | number_with_delimiter }} packages that are being successfully build
+for <a href="https://swiftpackageindex.com/search?query=platform:linux">Linux</a>,
+{{ stats.success_packages | number_with_delimiter }} are build successfully
+built for Android.
 
 <table>
 <tr>
@@ -39,5 +48,5 @@ yet supported, such as
 <p>
 This page is automatically updated by a GitHub action running at
 <a href="https://github.com/swift-everywhere/swift-package-builds">https://github.com/swift-everywhere/swift-package-builds</a>.
-It was last generated at {%- page.date | date: date_format -%}.
+It was last generated at {%- site.time | date_to_string -%}.
 </p>
