@@ -11,7 +11,7 @@ Items
 <p>
 
 <pre>
-{% for object in items.objectsandproperties %}
+{% for object in items %}
   {{ object | inspect }} 
 {% endfor %}
 </pre>
