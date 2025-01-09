@@ -10,15 +10,25 @@ title: Swift Everywhere: Android Build Status
 List of Android builds
 <p>
 
-<dl>
+<table>
+<tr>
+<th>Name</th>
+<th>Status</th>
+<th>Stars</th>
+</tr>
 {% for object in items %}
-  {% assign value = object %}
-  <dt>Object names: {{ value }}</dt>
-      <dd>repo: {{ value.repo }}</dd>
-      <dd>created: {{ value.created }}</dd>
-      <dd>modified: {{ value.modified }}</dd>
-      <dd>stars: {{ value.stars }}</dd>
-      <dd>status: {{ value.status }}</dd>
+    <tr>
+    {% assign value = object %}
+    <td><a href="{{ value.repo }}">{{ value.repo }}</a></td>
+    <td>{{ value.status }}</td>
+    <td>{{ value.stars }}</td>
+    <!--
+    <td>{{ value.created }}</td>
+    <td>{{ value.modified }}</td>
+    -->
+    </tr>
 {% endfor %}
+</table>
+
 
 
