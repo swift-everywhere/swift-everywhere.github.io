@@ -34,7 +34,7 @@ are successfully building for Android using the
     <th>Stars</th>
 </tr>
 {% for value in items %}
-<tr style="background-color: {% if value.status == 'success' %}#e6ffe6{% else %}#ffe6e6{% endif %};">
+<tr style="background-color: {{ item.status == 'success' ? '#d4edda' : '#f8d7da' }};">
 <tr>
     <td><a href="{{ value.repo }}">{{ value.repo }}</a></td>
     <td><a href="https://github.com/swift-everywhere/swift-package-builds/actions/runs/{{ value.runid }}>">{{ value.status }}</a></td>
