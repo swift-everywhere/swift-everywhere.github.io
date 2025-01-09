@@ -4,7 +4,7 @@ title: Swift Everywhere: Android Build Status
 ---
 <h1>{{ page.title }}</h1>
 
-{% assign items = site.data.android | last %}
+{% assign items = site.data.android | values %}
 
 <p>
 List of Android builds
