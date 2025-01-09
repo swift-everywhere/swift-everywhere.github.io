@@ -10,3 +10,10 @@ title: Swift Everywhere: Android Build Status
 ITEMS: {{ items }}
 <p>
 
+<pre>
+{% for object in site.data.objectsandproperties %}
+  {{ object | inspect }} 
+{% endfor %}
+</pre>
+
+
