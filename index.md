@@ -18,10 +18,10 @@ yet supported, such as
 </p>
 </div>
 
-<h2>Android Build Status: {{ stats.success_packages | times: 100 | divided_by: stats.total_packages }}%</h2>
-
 {% assign items = site.data.android %}
 {% assign stats = site.data.android_stats %}
+
+<h2>Android Build Status: {{ stats.success_packages | times: 100 | divided_by: stats.total_packages }}%</h2>
 
 Of the <b>{{ stats.total_packages | number_format:"#,##0" }}</b> packages that are successfully building for
 <a href="https://swiftpackageindex.com/search?query=platform:linux">Linux</a>,
