@@ -4,7 +4,13 @@ title: Swift Everywhere: Android Build Status
 ---
 <h1>{{ page.title }}</h1>
 
-{% assign items = site.data.android | map: 'value' %}
+{% assign items = site.data.android %}
+
+<p>
+ITEMS: {{ items }}
+<p>
+
+<!--
 {% assign sorted_items = items | sort: 'stars' | reverse %}
 
 <table>
@@ -25,3 +31,6 @@ title: Swift Everywhere: Android Build Status
     {% endfor %}
   </tbody>
 </table>
+
+-->
+
