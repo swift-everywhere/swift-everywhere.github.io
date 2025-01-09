@@ -12,10 +12,10 @@ This page acts as a supplement to the
 <a href="https://swiftpackageindex.com">Swift Package Index</a>
 by providing build status for alternative platforms that are not
 yet supported, such as
-<a href="">Android</a> and
-<a href="">Windows</a>. 
+<a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/3461">Android</a> and
+<a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/1354">Windows</a>. 
 </small>
-<p>
+</p>
 </div>
 
 <h2>Android Build Status</h2>
@@ -23,9 +23,9 @@ yet supported, such as
 {% assign items = site.data.android %}
 {% assign stats = site.data.android_stats %}
 
-Of the <b>{{ stats.total_packages | number: "%,d" }}</b> packages that are successfully building for
+Of the <b>{{ stats.total_packages | number_format:"#,##0" }}</b> packages that are successfully building for
 <a href="https://swiftpackageindex.com/search?query=platform:linux">Linux</a>,
-<b>{{ stats.success_packages | number: "%,d" }}</b>
+<b>{{ stats.success_packages | number_format:"#,##0" }}</b>
 are successfully building for Android.
 
 <h3>Build Status by Repository</h3>
