@@ -4158,6 +4158,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-09T19:51:56Z",
+    "duration": 7,
+    "modified": "2025-01-09T19:51:56Z",
+    "repo": "https://github.com/alexaubry/HTMLString.git",
+    "runid": 12696936639,
+    "stars": 172,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T10:57:14Z",
     "duration": 45,
     "modified": "2025-01-09T04:30:52Z",
@@ -5535,6 +5544,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T04:20:14Z",
+    "duration": 34,
+    "modified": "2025-01-10T12:01:16Z",
+    "repo": "https://github.com/p-x9/MachOKit.git",
+    "runid": 12708470227,
+    "stars": 98,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T20:15:00Z",
     "duration": 8,
     "modified": "2025-01-09T10:47:35Z",
@@ -5542,15 +5560,6 @@
     "runid": 12687934323,
     "stars": 98,
     "status": "success"
-  },
-  {
-    "created": "2025-01-07T04:20:14Z",
-    "duration": 25,
-    "modified": "2025-01-08T23:54:13Z",
-    "repo": "https://github.com/p-x9/MachOKit.git",
-    "runid": 12680732767,
-    "stars": 97,
-    "status": "failure"
   },
   {
     "created": "2025-01-06T19:53:56Z",
@@ -10071,6 +10080,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-10T14:50:58Z",
+    "duration": 13,
+    "modified": "2025-01-10T14:50:58Z",
+    "repo": "https://github.com/brightdigit/DataThespian.git",
+    "runid": 12711195780,
+    "stars": 26,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T02:10:22Z",
     "duration": 9,
     "modified": "2025-01-09T11:30:48Z",
@@ -11255,6 +11273,15 @@
     "modified": "2025-01-09T10:46:04Z",
     "repo": "https://github.com/alexey1312/SnapshotTestingHEIC.git",
     "runid": 12687934323,
+    "stars": 19,
+    "status": "failure"
+  },
+  {
+    "created": "2025-01-09T17:01:28Z",
+    "duration": 22,
+    "modified": "2025-01-09T17:01:28Z",
+    "repo": "https://github.com/ajevans99/swift-json-schema.git",
+    "runid": 12694140861,
     "stars": 19,
     "status": "failure"
   },
@@ -17829,6 +17856,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-09T18:37:21Z",
+    "duration": 5,
+    "modified": "2025-01-09T18:37:21Z",
+    "repo": "https://github.com/ptoffy/swift-bcrypt.git",
+    "runid": 12696215927,
+    "stars": 4,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T21:42:48Z",
     "duration": 6,
     "modified": "2025-01-08T23:41:53Z",
@@ -18878,6 +18914,15 @@
     "modified": "2025-01-09T07:56:11Z",
     "repo": "https://github.com/tesum/TSMockableMacros.git",
     "runid": 12685324254,
+    "stars": 3,
+    "status": "success"
+  },
+  {
+    "created": "2025-01-09T16:03:10Z",
+    "duration": 13,
+    "modified": "2025-01-09T16:03:10Z",
+    "repo": "https://github.com/tayloraswift/swift-ucf.git",
+    "runid": 12692899155,
     "stars": 3,
     "status": "success"
   },
@@ -24786,6 +24831,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-10T02:59:59Z",
+    "duration": 7,
+    "modified": "2025-01-10T03:00:00Z",
+    "repo": "https://github.com/PADL/swift-log-systemd.git",
+    "runid": 12702384361,
+    "stars": 1,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T09:50:30Z",
     "duration": 25,
     "modified": "2025-01-08T19:19:30Z",
@@ -25000,6 +25054,15 @@
     "runid": 12669458619,
     "stars": 1,
     "status": "failure"
+  },
+  {
+    "created": "2025-01-09T22:48:10Z",
+    "duration": 80,
+    "modified": "2025-01-09T22:48:10Z",
+    "repo": "https://github.com/LuizZak/SwiftAST.git",
+    "runid": 12699413534,
+    "stars": 1,
+    "status": "success"
   },
   {
     "created": "2025-01-07T14:07:00Z",
