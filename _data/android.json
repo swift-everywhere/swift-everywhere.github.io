@@ -23877,6 +23877,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-11T10:36:17Z",
+    "duration": 6,
+    "modified": "2025-01-11T10:36:17Z",
+    "repo": "https://github.com/grdsdev/swift-fetch.git",
+    "runid": 12723380464,
+    "stars": 1,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T19:42:13Z",
     "duration": 6,
     "modified": "2025-01-08T14:43:07Z",
@@ -28481,6 +28490,15 @@
     "modified": "2025-01-09T02:07:08Z",
     "repo": "https://github.com/Vidyashrijadhav/MyPackage.git",
     "runid": 12682127848,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-01-11T01:17:14Z",
+    "duration": 4,
+    "modified": "2025-01-11T01:17:14Z",
+    "repo": "https://github.com/VergeGroup/TypedIdentifier.git",
+    "runid": 12719708113,
     "stars": 0,
     "status": "success"
   },
