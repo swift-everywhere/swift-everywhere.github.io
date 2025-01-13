@@ -2593,12 +2593,12 @@
   },
   {
     "created": "2025-01-07T11:27:22Z",
-    "duration": 26,
-    "modified": "2025-01-07T18:21:33Z",
+    "duration": 30,
+    "modified": "2025-01-13T19:46:02Z",
     "repo": "https://github.com/orlandos-nl/IkigaJSON.git",
-    "runid": 12656035496,
-    "stars": 383,
-    "status": "failure"
+    "runid": 12754395890,
+    "stars": 384,
+    "status": "success"
   },
   {
     "created": "2025-01-06T21:40:15Z",
@@ -17056,12 +17056,12 @@
   },
   {
     "created": "2025-01-06T20:42:47Z",
-    "duration": 64,
-    "modified": "2025-01-09T09:49:58Z",
+    "duration": 83,
+    "modified": "2025-01-13T19:11:17Z",
     "repo": "https://github.com/ngr-tc/swift-rtc.git",
-    "runid": 12686975202,
+    "runid": 12754243024,
     "stars": 5,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T21:53:32Z",
