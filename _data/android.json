@@ -2449,12 +2449,12 @@
   },
   {
     "created": "2025-01-06T20:59:33Z",
-    "duration": 48,
-    "modified": "2025-01-09T14:08:38Z",
+    "duration": 58,
+    "modified": "2025-01-13T17:08:59Z",
     "repo": "https://github.com/apple/swift-nio-ssh.git",
-    "runid": 12691213311,
-    "stars": 411,
-    "status": "failure"
+    "runid": 12751582793,
+    "stars": 412,
+    "status": "success"
   },
   {
     "created": "2025-01-07T14:46:16Z",
@@ -18676,12 +18676,12 @@
   },
   {
     "created": "2025-01-07T14:48:44Z",
-    "duration": 26,
-    "modified": "2025-01-07T16:30:07Z",
+    "duration": 36,
+    "modified": "2025-01-13T16:27:25Z",
     "repo": "https://github.com/Kitura/Kitura-WebSocket-Compression.git",
-    "runid": 12655041616,
+    "runid": 12751582793,
     "stars": 4,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T00:37:42Z",
