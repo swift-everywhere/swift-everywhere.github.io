@@ -3834,6 +3834,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-07T10:16:00Z",
+    "duration": 47,
+    "modified": "2025-01-13T13:01:49Z",
+    "repo": "https://github.com/swift-server-community/mqtt-nio.git",
+    "runid": 12747389170,
+    "stars": 196,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T05:13:31Z",
     "duration": 18,
     "modified": "2025-01-09T08:47:04Z",
@@ -3848,15 +3857,6 @@
     "modified": "2025-01-09T10:58:49Z",
     "repo": "https://github.com/yonaskolb/Genesis.git",
     "runid": 12687934323,
-    "stars": 195,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T10:16:00Z",
-    "duration": 43,
-    "modified": "2025-01-09T09:21:29Z",
-    "repo": "https://github.com/swift-server-community/mqtt-nio.git",
-    "runid": 12686975202,
     "stars": 195,
     "status": "failure"
   },
@@ -11565,6 +11565,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T10:41:03Z",
+    "duration": 79,
+    "modified": "2025-01-13T13:11:22Z",
+    "repo": "https://github.com/Local-Connectivity-Lab/lcl-ping.git",
+    "runid": 12747389170,
+    "stars": 18,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T21:30:57Z",
     "duration": 96,
     "modified": "2025-01-07T23:01:09Z",
@@ -12339,15 +12348,6 @@
     "status": "success"
   },
   {
-    "created": "2025-01-07T10:41:03Z",
-    "duration": 69,
-    "modified": "2025-01-09T10:38:22Z",
-    "repo": "https://github.com/Local-Connectivity-Lab/lcl-ping.git",
-    "runid": 12687934323,
-    "stars": 15,
-    "status": "failure"
-  },
-  {
     "created": "2025-01-07T07:36:57Z",
     "duration": 6,
     "modified": "2025-01-08T09:21:49Z",
@@ -13019,6 +13019,15 @@
     "modified": "2025-01-08T21:51:52Z",
     "repo": "https://github.com/spropensource/ArchitectureComponents.git",
     "runid": 12679180049,
+    "stars": 12,
+    "status": "success"
+  },
+  {
+    "created": "2025-01-12T08:25:48Z",
+    "duration": 22,
+    "modified": "2025-01-12T08:25:48Z",
+    "repo": "https://github.com/skiptools/swift-sqlcipher.git",
+    "runid": 12731852082,
     "stars": 12,
     "status": "success"
   },
@@ -18621,6 +18630,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-07T01:17:04Z",
+    "duration": 33,
+    "modified": "2025-01-13T11:03:04Z",
+    "repo": "https://github.com/NozeIO/swift-nio-irc-client.git",
+    "runid": 12745126922,
+    "stars": 4,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T10:57:22Z",
     "duration": 7,
     "modified": "2025-01-08T08:58:03Z",
@@ -20068,15 +20086,6 @@
     "runid": 12641986754,
     "stars": 3,
     "status": "success"
-  },
-  {
-    "created": "2025-01-07T01:17:04Z",
-    "duration": 28,
-    "modified": "2025-01-08T21:47:09Z",
-    "repo": "https://github.com/NozeIO/swift-nio-irc-client.git",
-    "runid": 12679180049,
-    "stars": 3,
-    "status": "failure"
   },
   {
     "created": "2025-01-06T20:45:45Z",
@@ -25785,6 +25794,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-12T12:38:51Z",
+    "duration": 102,
+    "modified": "2025-01-12T12:38:51Z",
+    "repo": "https://github.com/xcode-actions/loki-logger.git",
+    "runid": 12733537978,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T13:26:53Z",
     "duration": 6,
     "modified": "2025-01-08T21:47:17Z",
@@ -27664,6 +27682,15 @@
     "runid": 12645351961,
     "stars": 0,
     "status": "success"
+  },
+  {
+    "created": "2025-01-12T23:21:51Z",
+    "duration": 32,
+    "modified": "2025-01-12T23:21:51Z",
+    "repo": "https://github.com/fpseverino/fluent-wallet.git",
+    "runid": 12737951000,
+    "stars": 0,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T10:51:49Z",
