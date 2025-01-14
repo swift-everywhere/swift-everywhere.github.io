@@ -3556,12 +3556,12 @@
   },
   {
     "created": "2025-01-06T20:18:51Z",
-    "duration": 94,
-    "modified": "2025-01-08T08:43:26Z",
+    "duration": 116,
+    "modified": "2025-01-14T16:55:31Z",
     "repo": "https://github.com/vapor/mysql-kit.git",
-    "runid": 12666722268,
+    "runid": 12771947187,
     "stars": 226,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T13:43:18Z",
@@ -4258,12 +4258,12 @@
   },
   {
     "created": "2025-01-07T01:11:29Z",
-    "duration": 4,
-    "modified": "2025-01-08T09:25:26Z",
+    "duration": 10,
+    "modified": "2025-01-14T17:33:55Z",
     "repo": "https://github.com/apple/swift-http-structured-headers.git",
-    "runid": 12667584016,
+    "runid": 12772881979,
     "stars": 168,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T22:43:06Z",
@@ -7786,12 +7786,12 @@
   },
   {
     "created": "2025-01-07T01:37:51Z",
-    "duration": 5,
-    "modified": "2025-01-07T01:37:51Z",
+    "duration": 7,
+    "modified": "2025-01-14T17:56:22Z",
     "repo": "https://github.com/apple/swift-metrics-extras.git",
-    "runid": 12643524602,
+    "runid": 12772881979,
     "stars": 49,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T23:22:42Z",
