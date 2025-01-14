@@ -2260,12 +2260,12 @@
   },
   {
     "created": "2025-01-07T02:55:39Z",
-    "duration": 15,
-    "modified": "2025-01-08T04:43:09Z",
+    "duration": 19,
+    "modified": "2025-01-14T16:44:05Z",
     "repo": "https://github.com/vapor/console-kit.git",
-    "runid": 12664022347,
+    "runid": 12771947187,
     "stars": 468,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T10:37:43Z",
