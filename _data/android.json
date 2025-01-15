@@ -2520,21 +2520,21 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-06T20:47:34Z",
+    "duration": 104,
+    "modified": "2025-01-15T05:36:07Z",
+    "repo": "https://github.com/apple/swift-nio-ssl.git",
+    "runid": 12782018361,
+    "stars": 394,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T23:28:40Z",
     "duration": 10,
     "modified": "2025-01-09T04:52:24Z",
     "repo": "https://github.com/a2/swift-shortcuts.git",
     "runid": 12683582618,
     "stars": 394,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-06T20:47:34Z",
-    "duration": 93,
-    "modified": "2025-01-07T06:15:08Z",
-    "repo": "https://github.com/apple/swift-nio-ssl.git",
-    "runid": 12645653000,
-    "stars": 393,
     "status": "failure"
   },
   {
@@ -3124,12 +3124,12 @@
   },
   {
     "created": "2025-01-07T01:15:59Z",
-    "duration": 26,
-    "modified": "2025-01-09T07:37:45Z",
+    "duration": 32,
+    "modified": "2025-01-15T12:38:55Z",
     "repo": "https://github.com/apple/swift-nio-transport-services.git",
-    "runid": 12685324254,
+    "runid": 12788438523,
     "stars": 293,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T14:18:16Z",
@@ -6345,6 +6345,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-15T03:30:40Z",
+    "duration": 85,
+    "modified": "2025-01-15T03:30:40Z",
+    "repo": "https://github.com/vapor-community/wallet.git",
+    "runid": 12780866324,
+    "stars": 73,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T12:22:21Z",
     "duration": 30,
     "modified": "2025-01-08T11:34:34Z",
@@ -6985,12 +6994,12 @@
   },
   {
     "created": "2025-01-07T07:26:44Z",
-    "duration": 11,
-    "modified": "2025-01-09T04:54:56Z",
+    "duration": 29,
+    "modified": "2025-01-15T03:52:32Z",
     "repo": "https://github.com/apple/swift-statsd-client.git",
-    "runid": 12683582618,
+    "runid": 12780866324,
     "stars": 60,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T08:32:11Z",
