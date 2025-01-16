@@ -22410,6 +22410,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-15T23:44:13Z",
+    "duration": 10,
+    "modified": "2025-01-15T23:44:13Z",
+    "repo": "https://github.com/Appsaurus/Swiftest.git",
+    "runid": 12798739101,
+    "stars": 2,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T21:34:45Z",
     "duration": 8,
     "modified": "2025-01-09T14:16:07Z",
