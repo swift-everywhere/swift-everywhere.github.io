@@ -4501,12 +4501,12 @@
   },
   {
     "created": "2025-01-06T23:15:32Z",
-    "duration": 14,
-    "modified": "2025-01-09T05:44:46Z",
+    "duration": 68,
+    "modified": "2025-01-17T05:23:58Z",
     "repo": "https://github.com/swift-server/RediStack.git",
-    "runid": 12684077543,
+    "runid": 12823147452,
     "stars": 151,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T08:10:02Z",
