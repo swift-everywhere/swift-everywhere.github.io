@@ -18262,12 +18262,12 @@
   },
   {
     "created": "2025-01-07T11:36:14Z",
-    "duration": 70,
-    "modified": "2025-01-07T11:36:14Z",
+    "duration": 88,
+    "modified": "2025-01-18T04:23:20Z",
     "repo": "https://github.com/flexlixrup/pulsar-client-swift.git",
-    "runid": 12650476881,
+    "runid": 12840825689,
     "stars": 4,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T14:25:50Z",
