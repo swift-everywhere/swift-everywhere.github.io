@@ -1468,12 +1468,12 @@
   },
   {
     "created": "2025-01-07T13:12:49Z",
-    "duration": 25,
-    "modified": "2025-01-08T15:00:45Z",
+    "duration": 41,
+    "modified": "2025-01-19T22:35:18Z",
     "repo": "https://github.com/GraphQLSwift/GraphQL.git",
-    "runid": 12672398001,
+    "runid": 12857643045,
     "stars": 941,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T10:18:29Z",
@@ -29917,12 +29917,12 @@
   },
   {
     "created": "2025-01-07T06:16:05Z",
-    "duration": 8,
-    "modified": "2025-01-07T21:55:57Z",
+    "duration": 10,
+    "modified": "2025-01-19T19:36:12Z",
     "repo": "https://github.com/Appsaurus/RuntimeExtensions.git",
-    "runid": 12659472889,
+    "runid": 12856422866,
     "stars": 0,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T10:09:10Z",
