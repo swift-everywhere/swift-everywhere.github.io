@@ -15246,6 +15246,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-22T23:48:04Z",
+    "duration": 69,
+    "modified": "2025-01-22T23:48:05Z",
+    "repo": "https://github.com/Local-Connectivity-Lab/lcl-websocket.git",
+    "runid": 12918857306,
+    "stars": 8,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T09:47:15Z",
     "duration": 64,
     "modified": "2025-01-09T12:55:40Z",
