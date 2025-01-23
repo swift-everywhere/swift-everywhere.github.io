@@ -16794,6 +16794,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-23T08:30:07Z",
+    "duration": 53,
+    "modified": "2025-01-23T08:30:07Z",
+    "repo": "https://github.com/Appsaurus/FluentSeeder.git",
+    "runid": 12925083749,
+    "stars": 6,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T08:08:14Z",
     "duration": 6,
     "modified": "2025-01-07T08:08:14Z",
@@ -16970,6 +16979,15 @@
     "modified": "2025-01-08T19:09:38Z",
     "repo": "https://github.com/stefanspringer1/SwiftXMLParser.git",
     "runid": 12676738885,
+    "stars": 5,
+    "status": "success"
+  },
+  {
+    "created": "2025-01-23T07:10:58Z",
+    "duration": 29,
+    "modified": "2025-01-23T07:10:59Z",
+    "repo": "https://github.com/stackotter/swift-image-formats.git",
+    "runid": 12923533628,
     "stars": 5,
     "status": "success"
   },
@@ -24210,6 +24228,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-23T04:30:24Z",
+    "duration": 9,
+    "modified": "2025-01-23T04:30:24Z",
+    "repo": "https://github.com/darrarski/swift-shell.git",
+    "runid": 12922204922,
+    "stars": 1,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T00:00:46Z",
     "duration": 6,
     "modified": "2025-01-09T10:37:01Z",
@@ -26118,6 +26145,24 @@
     "status": "success"
   },
   {
+    "created": "2025-01-23T11:37:31Z",
+    "duration": 8,
+    "modified": "2025-01-23T11:37:31Z",
+    "repo": "https://github.com/tomasf/Zip.git",
+    "runid": 12928006815,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-01-23T11:44:45Z",
+    "duration": 2,
+    "modified": "2025-01-23T11:44:45Z",
+    "repo": "https://github.com/tomasf/Nodal.git",
+    "runid": 12928006815,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T10:24:59Z",
     "duration": 32,
     "modified": "2025-01-07T10:24:59Z",
@@ -26361,6 +26406,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-23T03:55:58Z",
+    "duration": 13,
+    "modified": "2025-01-23T03:55:58Z",
+    "repo": "https://github.com/stackotter/jpeg.git",
+    "runid": 12921603508,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T13:28:42Z",
     "duration": 5,
     "modified": "2025-01-07T20:52:24Z",
@@ -26510,6 +26564,15 @@
     "modified": "2025-01-09T09:39:59Z",
     "repo": "https://github.com/skunkrocker/SwiftAsk.git",
     "runid": 12686975202,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
+    "created": "2025-01-23T03:48:19Z",
+    "duration": 9,
+    "modified": "2025-01-23T03:48:19Z",
+    "repo": "https://github.com/skiptools/skip-yaml.git",
+    "runid": 12921603508,
     "stars": 0,
     "status": "failure"
   },
@@ -27176,6 +27239,15 @@
     "modified": "2025-01-09T05:56:21Z",
     "repo": "https://github.com/markbattistella/PlatformChecker.git",
     "runid": 12684077543,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-01-23T11:27:19Z",
+    "duration": 343,
+    "modified": "2025-01-23T11:27:19Z",
+    "repo": "https://github.com/marcprux/SwiftGodot.git",
+    "runid": 12928006815,
     "stars": 0,
     "status": "success"
   },
@@ -29959,6 +30031,15 @@
     "runid": 12655360195,
     "stars": 0,
     "status": "success"
+  },
+  {
+    "created": "2025-01-23T03:15:29Z",
+    "duration": 39,
+    "modified": "2025-01-23T03:15:29Z",
+    "repo": "https://github.com/Appsaurus/FluentTestUtils.git",
+    "runid": 12921220486,
+    "stars": 0,
+    "status": "failure"
   },
   {
     "created": "2025-01-06T19:49:03Z",
