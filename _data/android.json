@@ -17757,6 +17757,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-23T20:27:46Z",
+    "duration": 40,
+    "modified": "2025-01-23T20:27:46Z",
+    "repo": "https://github.com/Appsaurus/CursorPagination.git",
+    "runid": 12937359606,
+    "stars": 5,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T20:03:31Z",
     "duration": 7,
     "modified": "2025-01-08T14:52:43Z",
@@ -26145,6 +26154,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-23T19:43:44Z",
+    "duration": 1,
+    "modified": "2025-01-23T19:43:44Z",
+    "repo": "https://github.com/tomasf/manifold-swift.git",
+    "runid": 12936386407,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-23T11:37:31Z",
     "duration": 8,
     "modified": "2025-01-23T11:37:31Z",
@@ -27257,6 +27275,15 @@
     "modified": "2025-01-07T00:16:20Z",
     "repo": "https://github.com/maclong9/swift-list.git",
     "runid": 12641986754,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
+    "created": "2025-01-23T18:52:45Z",
+    "duration": 11,
+    "modified": "2025-01-23T18:52:45Z",
+    "repo": "https://github.com/maclong9/list.git",
+    "runid": 12935615173,
     "stars": 0,
     "status": "failure"
   },
