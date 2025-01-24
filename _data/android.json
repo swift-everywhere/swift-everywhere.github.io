@@ -8604,6 +8604,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-24T11:35:22Z",
+    "duration": 8,
+    "modified": "2025-01-24T11:35:22Z",
+    "repo": "https://github.com/dfed/CacheAdvance.git",
+    "runid": 12948551128,
+    "stars": 39,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T23:42:59Z",
     "duration": 7,
     "modified": "2025-01-09T04:31:09Z",
@@ -15364,12 +15373,12 @@
   },
   {
     "created": "2025-01-06T22:07:16Z",
-    "duration": 16,
-    "modified": "2025-01-06T22:07:16Z",
+    "duration": 21,
+    "modified": "2025-01-24T03:43:12Z",
     "repo": "https://github.com/yumemi-inc/danger-swift-eda.git",
-    "runid": 12640899049,
+    "runid": 12942609143,
     "stars": 7,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T22:00:37Z",
@@ -17785,12 +17794,12 @@
   },
   {
     "created": "2025-01-07T15:01:04Z",
-    "duration": 18,
-    "modified": "2025-01-09T14:02:34Z",
+    "duration": 21,
+    "modified": "2025-01-24T06:43:13Z",
     "repo": "https://github.com/yumemi-inc/danger-swift-shoki.git",
-    "runid": 12691213311,
+    "runid": 12944463447,
     "stars": 4,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T19:49:46Z",
