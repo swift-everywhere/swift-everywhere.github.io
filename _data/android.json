@@ -11952,6 +11952,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-24T14:29:56Z",
+    "duration": 10,
+    "modified": "2025-01-24T14:29:57Z",
+    "repo": "https://github.com/kazakago/StoreFlowable.swift.git",
+    "runid": 12951359619,
+    "stars": 16,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T00:16:05Z",
     "duration": 4,
     "modified": "2025-01-08T21:45:10Z",
@@ -15505,6 +15514,15 @@
     "runid": 12665854112,
     "stars": 7,
     "status": "success"
+  },
+  {
+    "created": "2025-01-25T10:32:32Z",
+    "duration": 9,
+    "modified": "2025-01-25T10:32:32Z",
+    "repo": "https://github.com/skiptools/skip-keychain.git",
+    "runid": 12964069575,
+    "stars": 7,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T10:23:40Z",
