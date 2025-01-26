@@ -361,12 +361,12 @@
   },
   {
     "created": "2025-01-07T09:03:24Z",
-    "duration": 10,
-    "modified": "2025-01-07T09:03:24Z",
+    "duration": 67,
+    "modified": "2025-01-25T22:52:11Z",
     "repo": "https://github.com/pointfreeco/swift-snapshot-testing.git",
-    "runid": 12647794335,
-    "stars": 3832,
-    "status": "failure"
+    "runid": 12968881569,
+    "stars": 3840,
+    "status": "success"
   },
   {
     "created": "2025-01-07T13:04:10Z",
@@ -28825,6 +28825,15 @@
     "runid": 12645351961,
     "stars": 0,
     "status": "success"
+  },
+  {
+    "created": "2025-01-26T08:56:43Z",
+    "duration": 3,
+    "modified": "2025-01-26T08:56:43Z",
+    "repo": "https://github.com/Star-Lord-PHB/foundation-plus.git",
+    "runid": 12972886820,
+    "stars": 0,
+    "status": "failure"
   },
   {
     "created": "2025-01-06T19:35:22Z",
