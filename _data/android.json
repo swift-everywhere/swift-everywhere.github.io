@@ -16013,11 +16013,11 @@
   {
     "created": "2025-01-06T21:34:18Z",
     "duration": 2,
-    "modified": "2025-01-08T21:56:54Z",
+    "modified": "2025-01-30T23:47:22Z",
     "repo": "https://github.com/EmergeTools/SimpleDebugger.git",
-    "runid": 12679180049,
+    "runid": 13063064785,
     "stars": 7,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T01:03:37Z",
@@ -18275,6 +18275,15 @@
     "modified": "2025-01-09T07:38:57Z",
     "repo": "https://github.com/iamjono/SwiftMoment.git",
     "runid": 12685324254,
+    "stars": 4,
+    "status": "failure"
+  },
+  {
+    "created": "2025-01-31T06:41:59Z",
+    "duration": 60,
+    "modified": "2025-01-31T06:41:59Z",
+    "repo": "https://github.com/hummingbird-community/hummingbird-wallet.git",
+    "runid": 13067607083,
     "stars": 4,
     "status": "failure"
   },
@@ -29944,12 +29953,12 @@
   },
   {
     "created": "2025-01-07T08:48:35Z",
-    "duration": 10,
-    "modified": "2025-01-07T08:48:35Z",
+    "duration": 9,
+    "modified": "2025-01-31T07:46:09Z",
     "repo": "https://github.com/Fleuronic/Catenary.git",
-    "runid": 12647794335,
+    "runid": 13068178690,
     "stars": 0,
-    "status": "success"
+    "status": "failure"
   },
   {
     "created": "2025-01-07T09:42:09Z",
