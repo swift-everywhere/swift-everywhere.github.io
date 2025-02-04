@@ -21249,6 +21249,15 @@
     "status": "success"
   },
   {
+    "created": "2025-02-04T15:41:28Z",
+    "duration": 5,
+    "modified": "2025-02-04T15:41:28Z",
+    "repo": "https://github.com/m1guelpf/swift-pipeline.git",
+    "runid": 13138752490,
+    "stars": 2,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T07:38:40Z",
     "duration": 26,
     "modified": "2025-01-09T05:27:47Z",
@@ -24512,6 +24521,15 @@
     "modified": "2025-02-02T15:55:24Z",
     "repo": "https://github.com/brunogama/TypeInferedFactory.git",
     "runid": 13100051812,
+    "stars": 1,
+    "status": "success"
+  },
+  {
+    "created": "2025-02-04T16:51:15Z",
+    "duration": 74,
+    "modified": "2025-02-04T16:51:16Z",
+    "repo": "https://github.com/brunogama/RequestModelMacro.git",
+    "runid": 13140049374,
     "stars": 1,
     "status": "success"
   },
