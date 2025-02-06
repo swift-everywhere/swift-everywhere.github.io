@@ -1044,6 +1044,15 @@
     "status": "success"
   },
   {
+    "created": "2025-02-05T05:33:39Z",
+    "duration": 88,
+    "modified": "2025-02-05T05:33:39Z",
+    "repo": "https://github.com/swiftlang/swift-build.git",
+    "runid": 13150764431,
+    "stars": 1401,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T13:14:52Z",
     "duration": 7,
     "modified": "2025-01-08T15:36:17Z",
@@ -13456,12 +13465,12 @@
   },
   {
     "created": "2025-01-07T09:02:39Z",
-    "duration": 1,
-    "modified": "2025-02-03T00:01:47Z",
+    "duration": 6,
+    "modified": "2025-02-05T11:27:09Z",
     "repo": "https://github.com/tareksabry1337/TensorFlowLiteC.git",
-    "runid": 13103395876,
+    "runid": 13156136633,
     "stars": 11,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T08:21:12Z",
@@ -13694,6 +13703,15 @@
     "modified": "2025-01-09T09:35:49Z",
     "repo": "https://github.com/franklefebvre/XMLCoder.git",
     "runid": 12686975202,
+    "stars": 11,
+    "status": "success"
+  },
+  {
+    "created": "2025-01-07T10:35:57Z",
+    "duration": 53,
+    "modified": "2025-02-05T05:36:03Z",
+    "repo": "https://github.com/fpseverino/swift-wallet.git",
+    "runid": 13150764431,
     "stars": 11,
     "status": "success"
   },
@@ -14053,15 +14071,6 @@
     "duration": 32,
     "modified": "2025-01-08T09:39:07Z",
     "repo": "https://github.com/grpc/grpc-swift-nio-transport.git",
-    "runid": 12667584016,
-    "stars": 10,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T10:35:57Z",
-    "duration": 15,
-    "modified": "2025-01-08T09:50:01Z",
-    "repo": "https://github.com/fpseverino/swift-wallet.git",
     "runid": 12667584016,
     "stars": 10,
     "status": "failure"
@@ -15503,6 +15512,15 @@
     "modified": "2025-01-09T07:21:16Z",
     "repo": "https://github.com/swiftlang/swift-se0288-is-power.git",
     "runid": 12685324254,
+    "stars": 7,
+    "status": "success"
+  },
+  {
+    "created": "2025-02-05T17:47:44Z",
+    "duration": 10,
+    "modified": "2025-02-05T17:47:44Z",
+    "repo": "https://github.com/swift-otel/swift-w3c-trace-context.git",
+    "runid": 13162866898,
     "stars": 7,
     "status": "success"
   },
