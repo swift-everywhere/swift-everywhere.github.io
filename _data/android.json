@@ -72,6 +72,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-06T23:32:54Z",
+    "duration": 8,
+    "modified": "2025-02-13T19:06:01Z",
+    "repo": "https://github.com/SwifterSwift/SwifterSwift.git",
+    "runid": 13314513122,
+    "stars": 14282,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T10:10:47Z",
     "duration": 8,
     "modified": "2025-01-08T16:05:28Z",
@@ -79,15 +88,6 @@
     "runid": 12673545525,
     "stars": 14243,
     "status": "success"
-  },
-  {
-    "created": "2025-01-06T23:32:54Z",
-    "duration": 8,
-    "modified": "2025-01-07T20:39:55Z",
-    "repo": "https://github.com/SwifterSwift/SwifterSwift.git",
-    "runid": 12658681935,
-    "stars": 14213,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T12:18:52Z",
