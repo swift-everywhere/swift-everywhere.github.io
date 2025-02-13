@@ -918,6 +918,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-06T17:32:51Z",
+    "duration": 61,
+    "modified": "2025-02-12T15:38:32Z",
+    "repo": "https://github.com/apple/swift-openapi-generator.git",
+    "runid": 13288729758,
+    "stars": 1510,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T14:25:19Z",
     "duration": 7,
     "modified": "2025-01-09T09:47:59Z",
@@ -943,15 +952,6 @@
     "runid": 12683582618,
     "stars": 1490,
     "status": "success"
-  },
-  {
-    "created": "2025-01-06T17:32:51Z",
-    "duration": 55,
-    "modified": "2025-01-08T13:08:23Z",
-    "repo": "https://github.com/apple/swift-openapi-generator.git",
-    "runid": 12670708592,
-    "stars": 1489,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T09:42:22Z",
@@ -10728,6 +10728,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-02-13T09:23:59Z",
+    "duration": 6,
+    "modified": "2025-02-13T09:23:59Z",
+    "repo": "https://github.com/swhitty/Awaiting.git",
+    "runid": 13304354992,
+    "stars": 22,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T14:07:29Z",
     "duration": 8,
     "modified": "2025-01-09T07:53:43Z",
@@ -10996,6 +11005,15 @@
     "runid": 12674728093,
     "stars": 21,
     "status": "success"
+  },
+  {
+    "created": "2025-02-12T20:46:48Z",
+    "duration": 53,
+    "modified": "2025-02-12T20:46:48Z",
+    "repo": "https://github.com/JonPulfer/swiftodon.git",
+    "runid": 13294124445,
+    "stars": 21,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T04:49:58Z",
@@ -11687,6 +11705,15 @@
     "modified": "2025-01-06T21:05:39Z",
     "repo": "https://github.com/theblixguy/Once.git",
     "runid": 12640312681,
+    "stars": 17,
+    "status": "success"
+  },
+  {
+    "created": "2025-02-12T14:28:49Z",
+    "duration": 7,
+    "modified": "2025-02-12T14:28:49Z",
+    "repo": "https://github.com/swhitty/swift-timeout.git",
+    "runid": 13287426797,
     "stars": 17,
     "status": "success"
   },
@@ -24183,6 +24210,15 @@
     "status": "success"
   },
   {
+    "created": "2025-02-12T22:29:07Z",
+    "duration": 7,
+    "modified": "2025-02-12T22:29:07Z",
+    "repo": "https://github.com/gregcotten/CSProgress.git",
+    "runid": 13295967218,
+    "stars": 1,
+    "status": "success"
+  },
+  {
     "created": "2025-01-11T10:36:17Z",
     "duration": 6,
     "modified": "2025-01-11T10:36:17Z",
@@ -26100,6 +26136,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-02-12T16:45:23Z",
+    "duration": 75,
+    "modified": "2025-02-12T16:45:23Z",
+    "repo": "https://github.com/zunda-pixel/googleanalytics-swift.git",
+    "runid": 13290052186,
+    "stars": 0,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T20:25:47Z",
     "duration": 7,
     "modified": "2025-01-09T09:55:26Z",
@@ -27421,6 +27466,24 @@
     "runid": 13257723272,
     "stars": 0,
     "status": "failure"
+  },
+  {
+    "created": "2025-02-12T23:35:44Z",
+    "duration": 5,
+    "modified": "2025-02-12T23:35:44Z",
+    "repo": "https://github.com/noeticgarden/pico-nonempty.git",
+    "runid": 13296783432,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-02-12T20:50:04Z",
+    "duration": 4,
+    "modified": "2025-02-12T20:50:04Z",
+    "repo": "https://github.com/noeticgarden/pico-elementsbuilder.git",
+    "runid": 13294124445,
+    "stars": 0,
+    "status": "success"
   },
   {
     "created": "2025-01-07T02:52:25Z",
@@ -29284,6 +29347,15 @@
     "runid": 13263963376,
     "stars": 0,
     "status": "failure"
+  },
+  {
+    "created": "2025-02-12T23:50:54Z",
+    "duration": 8,
+    "modified": "2025-02-12T23:50:55Z",
+    "repo": "https://github.com/ShaftUI/Splash.git",
+    "runid": 13296783432,
+    "stars": 0,
+    "status": "success"
   },
   {
     "created": "2025-01-07T01:59:26Z",
