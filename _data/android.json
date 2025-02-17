@@ -10,12 +10,12 @@
   },
   {
     "created": "2025-01-07T07:28:33Z",
-    "duration": 33,
-    "modified": "2025-01-08T16:46:25Z",
+    "duration": 229,
+    "modified": "2025-02-17T18:45:05Z",
     "repo": "https://github.com/vapor/vapor.git",
-    "runid": 12674728093,
-    "stars": 24704,
-    "status": "failure"
+    "runid": 13376541059,
+    "stars": 24844,
+    "status": "success"
   },
   {
     "created": "2025-01-07T10:30:22Z",
@@ -5968,12 +5968,12 @@
   },
   {
     "created": "2025-01-07T06:29:38Z",
-    "duration": 51,
-    "modified": "2025-01-07T06:29:39Z",
+    "duration": 241,
+    "modified": "2025-02-17T21:22:04Z",
     "repo": "https://github.com/MihaelIsaev/VaporCron.git",
-    "runid": 12646377141,
+    "runid": 13378685468,
     "stars": 87,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T07:35:40Z",
@@ -6796,12 +6796,12 @@
   },
   {
     "created": "2025-01-06T20:01:16Z",
-    "duration": 38,
-    "modified": "2025-01-09T07:28:04Z",
+    "duration": 229,
+    "modified": "2025-02-17T21:32:33Z",
     "repo": "https://github.com/brokenhandsio/leaf-error-middleware.git",
-    "runid": 12685324254,
+    "runid": 13378685468,
     "stars": 64,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T13:17:17Z",
@@ -7426,12 +7426,12 @@
   },
   {
     "created": "2025-01-07T03:42:20Z",
-    "duration": 55,
-    "modified": "2025-01-07T03:42:20Z",
+    "duration": 133,
+    "modified": "2025-02-17T19:32:40Z",
     "repo": "https://github.com/swift-server/swift-openapi-async-http-client.git",
-    "runid": 12644606839,
+    "runid": 13377191670,
     "stars": 54,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T04:00:24Z",
@@ -8587,12 +8587,12 @@
   },
   {
     "created": "2025-01-07T13:54:06Z",
-    "duration": 36,
-    "modified": "2025-01-08T07:41:17Z",
+    "duration": 245,
+    "modified": "2025-02-17T20:45:34Z",
     "repo": "https://github.com/ml-archive/keychain.git",
-    "runid": 12665854112,
+    "runid": 13377980743,
     "stars": 40,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T09:59:03Z",
@@ -8605,12 +8605,12 @@
   },
   {
     "created": "2025-01-07T06:55:29Z",
-    "duration": 73,
-    "modified": "2025-01-08T21:50:50Z",
+    "duration": 204,
+    "modified": "2025-02-17T21:00:49Z",
     "repo": "https://github.com/m-barthelemy/AcmeSwift.git",
-    "runid": 12679180049,
+    "runid": 13377980743,
     "stars": 40,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T03:05:13Z",
@@ -11188,12 +11188,12 @@
   },
   {
     "created": "2025-01-06T17:10:49Z",
-    "duration": 32,
-    "modified": "2025-01-09T03:30:53Z",
+    "duration": 228,
+    "modified": "2025-02-17T22:30:14Z",
     "repo": "https://github.com/brokenhandsio/vapor-csrf.git",
-    "runid": 12682932578,
+    "runid": 13379383758,
     "stars": 20,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T01:20:39Z",
