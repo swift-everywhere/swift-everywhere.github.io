@@ -1467,6 +1467,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T05:08:43Z",
+    "duration": 125,
+    "modified": "2025-02-19T03:24:22Z",
+    "repo": "https://github.com/swift-server/async-http-client.git",
+    "runid": 13404400532,
+    "stars": 949,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T10:58:17Z",
     "duration": 7,
     "modified": "2025-01-08T09:53:16Z",
@@ -1510,15 +1519,6 @@
     "runid": 12684077543,
     "stars": 940,
     "status": "success"
-  },
-  {
-    "created": "2025-01-07T05:08:43Z",
-    "duration": 14,
-    "modified": "2025-01-09T12:54:08Z",
-    "repo": "https://github.com/swift-server/async-http-client.git",
-    "runid": 12690021172,
-    "stars": 938,
-    "status": "failure"
   },
   {
     "created": "2025-01-06T20:55:27Z",
@@ -22120,6 +22120,15 @@
     "runid": 12666722268,
     "stars": 2,
     "status": "success"
+  },
+  {
+    "created": "2025-02-18T23:31:57Z",
+    "duration": 30,
+    "modified": "2025-02-18T23:31:57Z",
+    "repo": "https://github.com/atacan/swift-openai-api.git",
+    "runid": 13401906008,
+    "stars": 2,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T09:43:35Z",
