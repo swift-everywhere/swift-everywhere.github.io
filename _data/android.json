@@ -1071,6 +1071,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-07T01:53:01Z",
+    "duration": 242,
+    "modified": "2025-02-19T12:53:55Z",
+    "repo": "https://github.com/vapor/fluent.git",
+    "runid": 13412679723,
+    "stars": 1347,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T21:46:52Z",
     "duration": 8,
     "modified": "2025-01-08T17:29:47Z",
@@ -1086,15 +1095,6 @@
     "repo": "https://github.com/RxSwiftCommunity/RxSwiftExt.git",
     "runid": 12688803372,
     "stars": 1336,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T01:53:01Z",
-    "duration": 34,
-    "modified": "2025-01-09T03:33:02Z",
-    "repo": "https://github.com/vapor/fluent.git",
-    "runid": 12682932578,
-    "stars": 1333,
     "status": "failure"
   },
   {
@@ -4671,6 +4671,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T06:42:47Z",
+    "duration": 240,
+    "modified": "2025-02-19T08:57:17Z",
+    "repo": "https://github.com/brokenhandsio/vapor-oauth.git",
+    "runid": 13408265551,
+    "stars": 143,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T10:34:42Z",
     "duration": 91,
     "modified": "2025-01-09T08:37:52Z",
@@ -4741,15 +4750,6 @@
     "runid": 12680001524,
     "stars": 139,
     "status": "success"
-  },
-  {
-    "created": "2025-01-07T06:42:47Z",
-    "duration": 36,
-    "modified": "2025-01-09T11:22:42Z",
-    "repo": "https://github.com/brokenhandsio/vapor-oauth.git",
-    "runid": 12688803372,
-    "stars": 139,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T10:37:51Z",
@@ -4905,6 +4905,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T10:22:21Z",
+    "duration": 255,
+    "modified": "2025-02-19T05:09:29Z",
+    "repo": "https://github.com/MihaelIsaev/FCM.git",
+    "runid": 13405390542,
+    "stars": 129,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T01:37:44Z",
     "duration": 10,
     "modified": "2025-01-07T01:37:44Z",
@@ -4919,15 +4928,6 @@
     "modified": "2025-01-09T08:32:50Z",
     "repo": "https://github.com/tayloraswift/swift-noise.git",
     "runid": 12686130628,
-    "stars": 128,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T10:22:21Z",
-    "duration": 36,
-    "modified": "2025-01-09T04:49:33Z",
-    "repo": "https://github.com/MihaelIsaev/FCM.git",
-    "runid": 12683582618,
     "stars": 128,
     "status": "failure"
   },
@@ -8146,12 +8146,12 @@
   },
   {
     "created": "2025-01-07T13:28:10Z",
-    "duration": 48,
-    "modified": "2025-01-07T13:28:11Z",
+    "duration": 253,
+    "modified": "2025-02-19T10:05:38Z",
     "repo": "https://github.com/vapor-community/google-cloud.git",
-    "runid": 12652509868,
+    "runid": 13409185056,
     "stars": 45,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T12:19:08Z",
@@ -10513,12 +10513,12 @@
   },
   {
     "created": "2025-01-07T05:23:01Z",
-    "duration": 39,
-    "modified": "2025-01-08T20:39:10Z",
+    "duration": 237,
+    "modified": "2025-02-19T10:43:01Z",
     "repo": "https://github.com/vapor/queues-redis-driver.git",
-    "runid": 12678362520,
+    "runid": 13410270908,
     "stars": 23,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T06:52:59Z",
@@ -14473,12 +14473,12 @@
   },
   {
     "created": "2025-01-06T23:38:55Z",
-    "duration": 27,
-    "modified": "2025-01-06T23:38:55Z",
+    "duration": 237,
+    "modified": "2025-02-19T14:33:40Z",
     "repo": "https://github.com/tugcanonbas/connectable-kit.git",
-    "runid": 12641986754,
+    "runid": 13414720554,
     "stars": 9,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T12:20:19Z",
@@ -15553,12 +15553,12 @@
   },
   {
     "created": "2025-01-06T17:38:14Z",
-    "duration": 32,
-    "modified": "2025-01-08T23:34:38Z",
+    "duration": 228,
+    "modified": "2025-02-19T05:22:25Z",
     "repo": "https://github.com/vapor-community/vapor-sitemap.git",
-    "runid": 12680732767,
+    "runid": 13405937296,
     "stars": 7,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T13:06:40Z",
@@ -17659,12 +17659,12 @@
   },
   {
     "created": "2025-01-07T07:33:51Z",
-    "duration": 32,
-    "modified": "2025-01-08T04:42:53Z",
+    "duration": 237,
+    "modified": "2025-02-19T09:02:09Z",
     "repo": "https://github.com/asensei/vapor-auth-jwt.git",
-    "runid": 12664022347,
+    "runid": 13408265551,
     "stars": 5,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T09:54:17Z",
@@ -22555,12 +22555,12 @@
   },
   {
     "created": "2025-01-07T13:59:38Z",
-    "duration": 33,
-    "modified": "2025-01-09T08:41:20Z",
+    "duration": 237,
+    "modified": "2025-02-19T14:27:57Z",
     "repo": "https://github.com/MihaelIsaev/Branch.git",
-    "runid": 12686130628,
+    "runid": 13414720554,
     "stars": 2,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T07:25:59Z",
