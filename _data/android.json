@@ -8127,6 +8127,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-07T09:14:09Z",
+    "duration": 227,
+    "modified": "2025-02-21T02:13:56Z",
+    "repo": "https://github.com/Mikroservices/Smtp.git",
+    "runid": 13448064800,
+    "stars": 46,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T14:30:07Z",
     "duration": 12,
     "modified": "2025-01-07T14:30:08Z",
@@ -8251,15 +8260,6 @@
     "runid": 12764575455,
     "stars": 45,
     "status": "success"
-  },
-  {
-    "created": "2025-01-07T09:14:09Z",
-    "duration": 39,
-    "modified": "2025-01-09T01:28:13Z",
-    "repo": "https://github.com/Mikroservices/Smtp.git",
-    "runid": 12682127848,
-    "stars": 45,
-    "status": "failure"
   },
   {
     "created": "2025-01-06T21:42:43Z",
@@ -8668,12 +8668,12 @@
   },
   {
     "created": "2025-01-06T17:11:36Z",
-    "duration": 35,
-    "modified": "2025-01-09T12:43:34Z",
+    "duration": 227,
+    "modified": "2025-02-21T15:56:50Z",
     "repo": "https://github.com/ml-archive/bugsnag.git",
-    "runid": 12690021172,
+    "runid": 13459774121,
     "stars": 39,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T21:18:21Z",
@@ -13132,12 +13132,12 @@
   },
   {
     "created": "2025-01-06T22:44:14Z",
-    "duration": 51,
-    "modified": "2025-01-08T16:03:40Z",
+    "duration": 127,
+    "modified": "2025-02-21T11:21:19Z",
     "repo": "https://github.com/vapor-community/sendgrid-kit.git",
-    "runid": 12673545525,
+    "runid": 13455668517,
     "stars": 12,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T17:44:28Z",
@@ -13309,6 +13309,15 @@
     "runid": 12684763216,
     "stars": 12,
     "status": "failure"
+  },
+  {
+    "created": "2025-01-07T12:11:41Z",
+    "duration": 102,
+    "modified": "2025-02-21T05:08:24Z",
+    "repo": "https://github.com/heckj/formic.git",
+    "runid": 13450001657,
+    "stars": 12,
+    "status": "success"
   },
   {
     "created": "2025-01-07T11:57:22Z",
@@ -14144,15 +14153,6 @@
     "modified": "2025-01-09T05:48:14Z",
     "repo": "https://github.com/jhonatn/XcodeIssueReporting.git",
     "runid": 12684077543,
-    "stars": 10,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T12:11:41Z",
-    "duration": 106,
-    "modified": "2025-01-08T14:03:09Z",
-    "repo": "https://github.com/heckj/formic.git",
-    "runid": 12671490284,
     "stars": 10,
     "status": "failure"
   },
@@ -25731,6 +25731,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-02-21T15:37:30Z",
+    "duration": 3,
+    "modified": "2025-02-21T15:37:30Z",
+    "repo": "https://github.com/Jomy10/SimpleGraph.git",
+    "runid": 13459774121,
+    "stars": 1,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T22:16:54Z",
     "duration": 51,
     "modified": "2025-01-08T18:53:19Z",
@@ -26901,6 +26910,15 @@
     "status": "success"
   },
   {
+    "created": "2025-02-21T11:25:07Z",
+    "duration": 43,
+    "modified": "2025-02-21T11:25:08Z",
+    "repo": "https://github.com/supersonicbyte/deduplicated-sequence-async-stream.git",
+    "runid": 13455668517,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T18:06:27Z",
     "duration": 9,
     "modified": "2025-01-09T11:34:11Z",
@@ -27383,6 +27401,15 @@
     "modified": "2025-01-09T07:03:46Z",
     "repo": "https://github.com/richiefi/PrivacyManifestUtil.git",
     "runid": 12684763216,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
+    "created": "2025-02-21T05:04:54Z",
+    "duration": 25,
+    "modified": "2025-02-21T05:04:54Z",
+    "repo": "https://github.com/richardpiazza/TranslationCatalog.git",
+    "runid": 13450001657,
     "stars": 0,
     "status": "failure"
   },
@@ -29489,6 +29516,15 @@
     "modified": "2025-01-07T05:12:27Z",
     "repo": "https://github.com/StyleShoots/CircuitBreaker.git",
     "runid": 12645351961,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-02-21T10:47:01Z",
+    "duration": 107,
+    "modified": "2025-02-21T10:47:02Z",
+    "repo": "https://github.com/Star-Lord-PHB/swift-codable-macro.git",
+    "runid": 13454742734,
     "stars": 0,
     "status": "success"
   },
