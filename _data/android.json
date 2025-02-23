@@ -4888,12 +4888,12 @@
   },
   {
     "created": "2025-01-07T08:44:15Z",
-    "duration": 29,
-    "modified": "2025-01-08T23:35:45Z",
+    "duration": 167,
+    "modified": "2025-02-23T05:34:35Z",
     "repo": "https://github.com/swiftkube/client.git",
-    "runid": 12680732767,
+    "runid": 13479995711,
     "stars": 130,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T22:00:00Z",
@@ -21934,12 +21934,12 @@
   },
   {
     "created": "2025-02-15T07:30:56Z",
-    "duration": 69,
-    "modified": "2025-02-15T07:30:56Z",
+    "duration": 39,
+    "modified": "2025-02-22T19:33:37Z",
     "repo": "https://github.com/egeniq/app-remote-config.git",
-    "runid": 13342877578,
+    "runid": 13475823537,
     "stars": 2,
-    "status": "success"
+    "status": "failure"
   },
   {
     "created": "2025-01-07T07:57:50Z",
