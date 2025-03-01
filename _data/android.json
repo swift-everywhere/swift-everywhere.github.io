@@ -757,12 +757,12 @@
   },
   {
     "created": "2025-01-06T20:49:58Z",
-    "duration": 30,
-    "modified": "2025-02-28T19:41:01Z",
+    "duration": 47,
+    "modified": "2025-03-01T13:19:51Z",
     "repo": "https://github.com/twostraws/Ignite.git",
-    "runid": 13594956781,
+    "runid": 13604818156,
     "stars": 1874,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T20:58:07Z",
@@ -7547,6 +7547,15 @@
     "modified": "2025-01-09T05:56:30Z",
     "repo": "https://github.com/objecthub/swift-numberkit.git",
     "runid": 12684077543,
+    "stars": 53,
+    "status": "failure"
+  },
+  {
+    "created": "2025-03-01T04:37:21Z",
+    "duration": 26,
+    "modified": "2025-03-01T04:37:21Z",
+    "repo": "https://github.com/finnvoor/xcc.git",
+    "runid": 13601038681,
     "stars": 53,
     "status": "failure"
   },
@@ -25223,6 +25232,15 @@
     "modified": "2025-01-13T15:31:49Z",
     "repo": "https://github.com/StanfordSpezi/SpeziFileFormats.git",
     "runid": 12750361417,
+    "stars": 1,
+    "status": "success"
+  },
+  {
+    "created": "2025-03-01T10:45:38Z",
+    "duration": 3,
+    "modified": "2025-03-01T10:45:38Z",
+    "repo": "https://github.com/StanfordSpezi/SpeziCLAID.git",
+    "runid": 13603777835,
     "stars": 1,
     "status": "success"
   },
