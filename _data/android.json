@@ -24705,6 +24705,15 @@
     "status": "success"
   },
   {
+    "created": "2025-03-05T15:32:59Z",
+    "duration": 45,
+    "modified": "2025-03-05T15:32:59Z",
+    "repo": "https://github.com/dongjoon-hyun/spark-connect-swift.git",
+    "runid": 13679353611,
+    "stars": 1,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T12:40:46Z",
     "duration": 37,
     "modified": "2025-01-07T22:23:41Z",
@@ -26017,6 +26026,15 @@
     "runid": 12672398001,
     "stars": 1,
     "status": "failure"
+  },
+  {
+    "created": "2025-03-05T10:49:02Z",
+    "duration": 4,
+    "modified": "2025-03-05T10:49:02Z",
+    "repo": "https://github.com/Formkunft/swift-collection-parser.git",
+    "runid": 13673706751,
+    "stars": 1,
+    "status": "success"
   },
   {
     "created": "2025-01-06T20:41:11Z",
@@ -28393,6 +28411,15 @@
     "runid": 12690021172,
     "stars": 0,
     "status": "failure"
+  },
+  {
+    "created": "2025-03-05T07:27:11Z",
+    "duration": 8,
+    "modified": "2025-03-05T07:27:11Z",
+    "repo": "https://github.com/jaeggerr/evaluator.git",
+    "runid": 13670562257,
+    "stars": 0,
+    "status": "success"
   },
   {
     "created": "2025-02-03T16:57:53Z",
