@@ -1116,6 +1116,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T13:37:11Z",
+    "duration": 335,
+    "modified": "2025-03-06T23:34:19Z",
+    "repo": "https://github.com/migueldeicaza/SwiftGodot.git",
+    "runid": 13710128087,
+    "stars": 1289,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T03:00:52Z",
     "duration": 24,
     "modified": "2025-01-07T21:49:19Z",
@@ -1140,15 +1149,6 @@
     "repo": "https://github.com/rensbreur/SwiftTUI.git",
     "runid": 12673545525,
     "stars": 1243,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T13:37:11Z",
-    "duration": 264,
-    "modified": "2025-01-08T06:52:43Z",
-    "repo": "https://github.com/migueldeicaza/SwiftGodot.git",
-    "runid": 12665265526,
-    "stars": 1230,
     "status": "failure"
   },
   {
@@ -4671,6 +4671,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T04:07:26Z",
+    "duration": 115,
+    "modified": "2025-03-07T13:45:19Z",
+    "repo": "https://github.com/gohanlon/swift-memberwise-init-macro.git",
+    "runid": 13721662556,
+    "stars": 145,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T23:27:36Z",
     "duration": 10,
     "modified": "2025-01-08T21:37:42Z",
@@ -4974,15 +4983,6 @@
     "repo": "https://github.com/NozeIO/MicroExpress.git",
     "runid": 12673545525,
     "stars": 126,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T04:07:26Z",
-    "duration": 24,
-    "modified": "2025-01-08T19:29:46Z",
-    "repo": "https://github.com/gohanlon/swift-memberwise-init-macro.git",
-    "runid": 12677445864,
-    "stars": 125,
     "status": "failure"
   },
   {
@@ -21879,6 +21879,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-03-07T11:46:03Z",
+    "duration": 7,
+    "modified": "2025-03-07T11:46:03Z",
+    "repo": "https://github.com/fumito-ito/SwiftyJSONLines.git",
+    "runid": 13719528206,
+    "stars": 2,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T11:55:26Z",
     "duration": 17,
     "modified": "2025-01-09T10:41:45Z",
@@ -28580,6 +28589,15 @@
     "modified": "2025-01-09T06:38:17Z",
     "repo": "https://github.com/haekelmeister/MacAddress.git",
     "runid": 12684763216,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-03-06T22:18:38Z",
+    "duration": 7,
+    "modified": "2025-03-06T22:18:38Z",
+    "repo": "https://github.com/guykogus/SwifterJSON.git",
+    "runid": 13709287802,
     "stars": 0,
     "status": "success"
   },
