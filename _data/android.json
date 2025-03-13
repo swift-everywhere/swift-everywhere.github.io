@@ -3537,6 +3537,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T04:48:02Z",
+    "duration": 206,
+    "modified": "2025-03-13T12:59:28Z",
+    "repo": "https://github.com/apple/app-store-server-library-swift.git",
+    "runid": 13834795383,
+    "stars": 243,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T06:37:51Z",
     "duration": 18,
     "modified": "2025-01-09T09:00:54Z",
@@ -3579,15 +3588,6 @@
     "repo": "https://github.com/mattt/ollama-swift.git",
     "runid": 13437340042,
     "stars": 238,
-    "status": "success"
-  },
-  {
-    "created": "2025-01-07T04:48:02Z",
-    "duration": 225,
-    "modified": "2025-02-18T04:43:00Z",
-    "repo": "https://github.com/apple/app-store-server-library-swift.git",
-    "runid": 13383192621,
-    "stars": 237,
     "status": "success"
   },
   {
