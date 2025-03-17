@@ -9882,6 +9882,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-07T05:15:09Z",
+    "duration": 78,
+    "modified": "2025-03-16T16:43:58Z",
+    "repo": "https://github.com/swift-server/swift-openapi-hummingbird.git",
+    "runid": 13885249469,
+    "stars": 28,
+    "status": "success"
+  },
+  {
     "created": "2025-03-04T15:05:11Z",
     "duration": 59,
     "modified": "2025-03-04T15:05:11Z",
@@ -10015,15 +10024,6 @@
     "runid": 12656035496,
     "stars": 27,
     "status": "success"
-  },
-  {
-    "created": "2025-01-07T05:15:09Z",
-    "duration": 28,
-    "modified": "2025-01-08T22:37:16Z",
-    "repo": "https://github.com/swift-server/swift-openapi-hummingbird.git",
-    "runid": 12680001524,
-    "stars": 27,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T08:43:14Z",
@@ -16281,6 +16281,15 @@
     "status": "success"
   },
   {
+    "created": "2025-03-16T11:36:14Z",
+    "duration": 82,
+    "modified": "2025-03-16T11:36:14Z",
+    "repo": "https://github.com/Cocoanetics/SwiftMCP.git",
+    "runid": 13882795043,
+    "stars": 7,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T01:03:37Z",
     "duration": 7,
     "modified": "2025-01-09T06:31:15Z",
@@ -18378,6 +18387,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-03-17T03:48:42Z",
+    "duration": 19,
+    "modified": "2025-03-17T03:48:42Z",
+    "repo": "https://github.com/mrLSD/evm-swift.git",
+    "runid": 13890955691,
+    "stars": 4,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T19:43:20Z",
     "duration": 34,
     "modified": "2025-01-09T13:13:53Z",
@@ -18457,6 +18475,15 @@
     "runid": 12684077543,
     "stars": 4,
     "status": "success"
+  },
+  {
+    "created": "2025-03-17T07:24:26Z",
+    "duration": 98,
+    "modified": "2025-03-17T07:24:26Z",
+    "repo": "https://github.com/m1guelpf/swift-openai-responses.git",
+    "runid": 13893720612,
+    "stars": 4,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T03:26:40Z",
@@ -29628,6 +29655,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-03-16T11:58:08Z",
+    "duration": 71,
+    "modified": "2025-03-16T11:58:08Z",
+    "repo": "https://github.com/aperkov/DecimalMacro.git",
+    "runid": 13882795043,
+    "stars": 0,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T23:57:02Z",
     "duration": 17,
     "modified": "2025-01-09T06:55:56Z",
@@ -30641,6 +30677,15 @@
     "modified": "2025-01-29T10:36:43Z",
     "repo": "https://github.com/MFB-Technologies-Inc/azure-devops-swift.git",
     "runid": 13029155593,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
+    "created": "2025-03-16T13:00:56Z",
+    "duration": 7,
+    "modified": "2025-03-16T13:00:56Z",
+    "repo": "https://github.com/MFB-Technologies-Inc/SwiftyBeaver.git",
+    "runid": 13883394301,
     "stars": 0,
     "status": "failure"
   },
