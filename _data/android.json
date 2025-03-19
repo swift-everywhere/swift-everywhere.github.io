@@ -11700,6 +11700,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-06T23:08:15Z",
+    "duration": 46,
+    "modified": "2025-03-18T20:31:46Z",
+    "repo": "https://github.com/grpc/grpc-swift-protobuf.git",
+    "runid": 13932721133,
+    "stars": 18,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T17:40:43Z",
     "duration": 5,
     "modified": "2025-01-08T19:04:44Z",
@@ -12969,6 +12978,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-07T15:05:07Z",
+    "duration": 75,
+    "modified": "2025-03-19T07:34:31Z",
+    "repo": "https://github.com/hummingbird-community/hummingbird-elementary.git",
+    "runid": 13940987509,
+    "stars": 13,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T13:00:33Z",
     "duration": 8,
     "modified": "2025-01-09T05:56:39Z",
@@ -13390,15 +13408,6 @@
     "runid": 13874123325,
     "stars": 12,
     "status": "success"
-  },
-  {
-    "created": "2025-01-07T15:05:07Z",
-    "duration": 32,
-    "modified": "2025-01-09T06:30:09Z",
-    "repo": "https://github.com/hummingbird-community/hummingbird-elementary.git",
-    "runid": 12684763216,
-    "stars": 12,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T12:11:41Z",
@@ -14234,15 +14243,6 @@
     "modified": "2025-01-09T05:48:14Z",
     "repo": "https://github.com/jhonatn/XcodeIssueReporting.git",
     "runid": 12684077543,
-    "stars": 10,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-06T23:08:15Z",
-    "duration": 21,
-    "modified": "2025-01-07T16:54:06Z",
-    "repo": "https://github.com/grpc/grpc-swift-protobuf.git",
-    "runid": 12655360195,
     "stars": 10,
     "status": "failure"
   },
@@ -21385,12 +21385,12 @@
   },
   {
     "created": "2025-01-07T06:39:04Z",
-    "duration": 127,
-    "modified": "2025-02-18T03:11:47Z",
+    "duration": 136,
+    "modified": "2025-03-19T07:56:04Z",
     "repo": "https://github.com/petrpavlik/swift-sentry.git",
-    "runid": 13382225437,
+    "runid": 13940987509,
     "stars": 2,
-    "status": "success"
+    "status": "failure"
   },
   {
     "created": "2025-01-06T21:06:56Z",
