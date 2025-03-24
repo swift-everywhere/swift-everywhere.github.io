@@ -828,6 +828,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-03-24T11:47:56Z",
+    "duration": 7,
+    "modified": "2025-03-24T11:47:56Z",
+    "repo": "https://github.com/skiptools/skip.git",
+    "runid": 14033888420,
+    "stars": 1792,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T08:43:27Z",
     "duration": 11,
     "modified": "2025-01-07T17:00:42Z",
@@ -2859,6 +2868,15 @@
     "repo": "https://github.com/ivanvorobei/SPPerspective.git",
     "runid": 12688803372,
     "stars": 338,
+    "status": "success"
+  },
+  {
+    "created": "2025-03-23T22:44:29Z",
+    "duration": 9,
+    "modified": "2025-03-23T22:44:29Z",
+    "repo": "https://github.com/loopwork-ai/ollama-swift.git",
+    "runid": 14023533603,
+    "stars": 335,
     "status": "success"
   },
   {
@@ -16704,6 +16722,15 @@
     "status": "success"
   },
   {
+    "created": "2025-03-23T21:58:40Z",
+    "duration": 13,
+    "modified": "2025-03-23T21:58:41Z",
+    "repo": "https://github.com/jordanekay/Cubby.git",
+    "runid": 14023076234,
+    "stars": 6,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T22:09:12Z",
     "duration": 8,
     "modified": "2025-01-09T07:30:39Z",
@@ -21245,6 +21272,15 @@
     "modified": "2025-01-09T04:57:25Z",
     "repo": "https://github.com/sloik/EitherSwift.git",
     "runid": 12683582618,
+    "stars": 2,
+    "status": "success"
+  },
+  {
+    "created": "2025-03-24T04:45:50Z",
+    "duration": 8,
+    "modified": "2025-03-24T04:45:50Z",
+    "repo": "https://github.com/skiptools/swift-jni.git",
+    "runid": 14027225803,
     "stars": 2,
     "status": "success"
   },
