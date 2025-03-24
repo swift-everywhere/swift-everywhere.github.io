@@ -28674,6 +28674,24 @@
     "status": "failure"
   },
   {
+    "created": "2025-03-24T19:12:48Z",
+    "duration": 99,
+    "modified": "2025-03-24T19:12:48Z",
+    "repo": "https://github.com/jordanekay/papyrus.git",
+    "runid": 14043036833,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
+    "created": "2025-03-24T18:35:23Z",
+    "duration": 97,
+    "modified": "2025-03-24T18:35:23Z",
+    "repo": "https://github.com/jordanekay/AutoCodable.git",
+    "runid": 14043036833,
+    "stars": 0,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T21:57:12Z",
     "duration": 10,
     "modified": "2025-01-09T14:04:32Z",
