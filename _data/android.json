@@ -2277,6 +2277,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-06T18:07:54Z",
+    "duration": 10,
+    "modified": "2025-03-29T07:04:52Z",
+    "repo": "https://github.com/swhitty/SwiftDraw.git",
+    "runid": 14143048046,
+    "stars": 478,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T04:01:13Z",
     "duration": 11,
     "modified": "2025-01-08T09:25:13Z",
@@ -2373,15 +2382,6 @@
     "repo": "https://github.com/vapor/leaf.git",
     "runid": 12685324254,
     "stars": 445,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-06T18:07:54Z",
-    "duration": 78,
-    "modified": "2025-01-08T07:48:47Z",
-    "repo": "https://github.com/swhitty/SwiftDraw.git",
-    "runid": 12665854112,
-    "stars": 438,
     "status": "failure"
   },
   {
@@ -11727,6 +11727,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T12:42:42Z",
+    "duration": 154,
+    "modified": "2025-03-29T04:55:28Z",
+    "repo": "https://github.com/lovetodream/swift-log-loki.git",
+    "runid": 14142148490,
+    "stars": 18,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T00:24:28Z",
     "duration": 11,
     "modified": "2025-01-09T03:28:47Z",
@@ -12533,15 +12542,6 @@
     "modified": "2025-01-07T18:46:04Z",
     "repo": "https://github.com/madmachineio/MadDrivers.git",
     "runid": 12657091582,
-    "stars": 15,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T12:42:42Z",
-    "duration": 37,
-    "modified": "2025-01-09T14:02:14Z",
-    "repo": "https://github.com/lovetodream/swift-log-loki.git",
-    "runid": 12691213311,
     "stars": 15,
     "status": "failure"
   },
@@ -20880,6 +20880,15 @@
     "status": "success"
   },
   {
+    "created": "2025-03-30T03:33:32Z",
+    "duration": 24,
+    "modified": "2025-03-30T03:33:32Z",
+    "repo": "https://github.com/BertanT/WatchDuck.git",
+    "runid": 14152020345,
+    "stars": 3,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T04:14:14Z",
     "duration": 45,
     "modified": "2025-01-09T05:35:09Z",
@@ -24858,6 +24867,15 @@
     "status": "success"
   },
   {
+    "created": "2025-03-30T17:21:12Z",
+    "duration": 6,
+    "modified": "2025-03-30T17:21:12Z",
+    "repo": "https://github.com/frankois944/QuickServiceLocator.git",
+    "runid": 14158245891,
+    "stars": 1,
+    "status": "success"
+  },
+  {
     "created": "2025-01-12T23:21:51Z",
     "duration": 139,
     "modified": "2025-03-12T20:56:54Z",
@@ -25457,6 +25475,15 @@
     "modified": "2025-01-06T23:16:10Z",
     "repo": "https://github.com/adam-fowler/dictionary-encoder.git",
     "runid": 12641431024,
+    "stars": 1,
+    "status": "success"
+  },
+  {
+    "created": "2025-03-29T22:25:52Z",
+    "duration": 7,
+    "modified": "2025-03-29T22:25:52Z",
+    "repo": "https://github.com/Zuech-Dev/AddressParser.git",
+    "runid": 14149916296,
     "stars": 1,
     "status": "success"
   },
@@ -29475,6 +29502,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-03-30T14:57:04Z",
+    "duration": 71,
+    "modified": "2025-03-30T14:57:04Z",
+    "repo": "https://github.com/davdroman/swift-once-macro.git",
+    "runid": 14156885718,
+    "stars": 0,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T05:16:13Z",
     "duration": 29,
     "modified": "2025-01-08T01:45:42Z",
@@ -31415,6 +31451,15 @@
     "modified": "2025-01-09T08:45:03Z",
     "repo": "https://github.com/DandyLyons/Cloneable.git",
     "runid": 12686130628,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-03-29T11:53:36Z",
+    "duration": 6,
+    "modified": "2025-03-29T11:53:36Z",
+    "repo": "https://github.com/DandyLyons/Catcher.git",
+    "runid": 14145089157,
     "stars": 0,
     "status": "success"
   },
