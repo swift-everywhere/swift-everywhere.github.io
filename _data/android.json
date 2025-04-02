@@ -8884,12 +8884,12 @@
   },
   {
     "created": "2025-01-07T10:52:24Z",
-    "duration": 44,
-    "modified": "2025-01-08T12:38:52Z",
+    "duration": 241,
+    "modified": "2025-04-02T16:09:07Z",
     "repo": "https://github.com/ml-archive/flash.git",
-    "runid": 12670708592,
+    "runid": 14223367536,
     "stars": 37,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T23:37:02Z",
@@ -25669,12 +25669,12 @@
   },
   {
     "created": "2025-01-07T03:32:19Z",
-    "duration": 34,
-    "modified": "2025-03-10T16:02:02Z",
+    "duration": 32,
+    "modified": "2025-04-02T14:55:55Z",
     "repo": "https://github.com/StanfordSpezi/SpeziNetworking.git",
-    "runid": 13768325480,
+    "runid": 14221967709,
     "stars": 1,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T04:53:44Z",
