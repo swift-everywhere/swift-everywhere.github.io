@@ -3627,6 +3627,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T06:47:24Z",
+    "duration": 244,
+    "modified": "2025-04-10T06:40:48Z",
+    "repo": "https://github.com/SwiftFiddle/swiftfiddle-web.git",
+    "runid": 14373817044,
+    "stars": 238,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T08:56:45Z",
     "duration": 24,
     "modified": "2025-01-08T09:59:16Z",
@@ -3758,15 +3767,6 @@
     "modified": "2025-01-07T09:59:12Z",
     "repo": "https://github.com/kiliankoe/CLISpinner.git",
     "runid": 12648641718,
-    "stars": 218,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T06:47:24Z",
-    "duration": 33,
-    "modified": "2025-01-08T19:07:32Z",
-    "repo": "https://github.com/SwiftFiddle/swiftfiddle-web.git",
-    "runid": 12676738885,
     "stars": 218,
     "status": "failure"
   },
@@ -12254,6 +12254,15 @@
     "modified": "2025-04-02T05:58:15Z",
     "repo": "https://github.com/makoni/couchdb-vapor.git",
     "runid": 14212128946,
+    "stars": 16,
+    "status": "success"
+  },
+  {
+    "created": "2025-04-09T19:34:05Z",
+    "duration": 139,
+    "modified": "2025-04-09T19:34:05Z",
+    "repo": "https://github.com/makoni/couchdb-swift.git",
+    "runid": 14365202436,
     "stars": 16,
     "status": "success"
   },
@@ -25768,12 +25777,12 @@
   },
   {
     "created": "2025-03-02T19:28:41Z",
-    "duration": 4,
-    "modified": "2025-03-02T19:28:41Z",
+    "duration": 21,
+    "modified": "2025-04-09T17:51:17Z",
     "repo": "https://github.com/StanfordSpezi/SpeziStudy.git",
-    "runid": 13618503428,
+    "runid": 14363156653,
     "stars": 1,
-    "status": "success"
+    "status": "failure"
   },
   {
     "created": "2025-01-07T03:32:19Z",
@@ -28823,6 +28832,15 @@
     "modified": "2025-01-09T09:38:59Z",
     "repo": "https://github.com/kkebo/swift-log-playground.git",
     "runid": 12686975202,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-04-09T19:53:49Z",
+    "duration": 8,
+    "modified": "2025-04-09T19:53:49Z",
+    "repo": "https://github.com/khulnasoft/khulnasoft-swift.git",
+    "runid": 14365202436,
     "stars": 0,
     "status": "success"
   },
