@@ -2835,6 +2835,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-04-14T12:43:18Z",
+    "duration": 14,
+    "modified": "2025-04-14T12:43:18Z",
+    "repo": "https://github.com/modelcontextprotocol/swift-sdk.git",
+    "runid": 14445877621,
+    "stars": 347,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T17:43:23Z",
     "duration": 9,
     "modified": "2025-01-08T23:00:48Z",
@@ -6359,6 +6368,15 @@
     "modified": "2025-01-09T11:25:48Z",
     "repo": "https://github.com/NicholasBellucci/SociableWeaver.git",
     "runid": 12688803372,
+    "stars": 77,
+    "status": "success"
+  },
+  {
+    "created": "2025-04-14T13:50:37Z",
+    "duration": 8,
+    "modified": "2025-04-14T13:50:37Z",
+    "repo": "https://github.com/ChimeHQ/OAuthenticator.git",
+    "runid": 14446939727,
     "stars": 77,
     "status": "success"
   },
@@ -18324,6 +18342,15 @@
     "status": "success"
   },
   {
+    "created": "2025-02-18T16:31:01Z",
+    "duration": 3,
+    "modified": "2025-04-15T22:57:45Z",
+    "repo": "https://github.com/wuyu2015/XPtrSwift.git",
+    "runid": 14480459565,
+    "stars": 4,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T00:29:12Z",
     "duration": 6,
     "modified": "2025-01-09T14:10:09Z",
@@ -19472,15 +19499,6 @@
     "modified": "2025-01-27T03:07:21Z",
     "repo": "https://github.com/xcode-actions/clt-logger.git",
     "runid": 12981104100,
-    "stars": 3,
-    "status": "success"
-  },
-  {
-    "created": "2025-02-18T16:31:01Z",
-    "duration": 5,
-    "modified": "2025-02-18T16:31:01Z",
-    "repo": "https://github.com/wuyu2015/XPtrSwift.git",
-    "runid": 13395317273,
     "stars": 3,
     "status": "success"
   },
@@ -25038,6 +25056,15 @@
     "status": "success"
   },
   {
+    "created": "2025-04-15T13:37:46Z",
+    "duration": 92,
+    "modified": "2025-04-15T13:37:46Z",
+    "repo": "https://github.com/eu-digital-identity-wallet/SwiftCopyableMacro.git",
+    "runid": 14470709738,
+    "stars": 1,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T20:36:45Z",
     "duration": 7,
     "modified": "2025-01-09T11:38:35Z",
@@ -27639,6 +27666,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-04-14T17:25:15Z",
+    "duration": 3,
+    "modified": "2025-04-14T17:25:15Z",
+    "repo": "https://github.com/stytchauth/stytch-ios-dfp.git",
+    "runid": 14451684748,
+    "stars": 0,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T18:06:27Z",
     "duration": 9,
     "modified": "2025-01-09T11:34:11Z",
@@ -28825,6 +28861,15 @@
     "runid": 12658681935,
     "stars": 0,
     "status": "success"
+  },
+  {
+    "created": "2025-04-15T14:35:29Z",
+    "duration": 19,
+    "modified": "2025-04-15T14:35:29Z",
+    "repo": "https://github.com/laconicman/OSLogLoggingMiddleware.git",
+    "runid": 14471822826,
+    "stars": 0,
+    "status": "failure"
   },
   {
     "created": "2025-01-06T22:06:59Z",
@@ -30069,6 +30114,15 @@
     "status": "success"
   },
   {
+    "created": "2025-04-14T02:14:43Z",
+    "duration": 70,
+    "modified": "2025-04-14T02:14:43Z",
+    "repo": "https://github.com/artemkalinovsky/AutoMap.git",
+    "runid": 14435668880,
+    "stars": 0,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T09:23:33Z",
     "duration": 4,
     "modified": "2025-01-09T03:38:08Z",
@@ -31190,6 +31244,15 @@
     "modified": "2025-01-07T10:00:03Z",
     "repo": "https://github.com/KS1019/AssertSwiftCLI.git",
     "runid": 12648641718,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
+    "created": "2025-04-13T23:01:32Z",
+    "duration": 21,
+    "modified": "2025-04-13T23:01:32Z",
+    "repo": "https://github.com/KINGH242/PotentCodables.git",
+    "runid": 14433865301,
     "stars": 0,
     "status": "failure"
   },
