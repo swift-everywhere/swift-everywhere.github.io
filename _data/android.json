@@ -1566,6 +1566,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T11:05:01Z",
+    "duration": 6,
+    "modified": "2025-04-22T21:32:05Z",
+    "repo": "https://github.com/microsoft/fluentui-apple.git",
+    "runid": 14604832347,
+    "stars": 929,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T17:41:53Z",
     "duration": 11,
     "modified": "2025-01-09T09:03:34Z",
@@ -1582,15 +1591,6 @@
     "runid": 12690021172,
     "stars": 927,
     "status": "failure"
-  },
-  {
-    "created": "2025-01-07T11:05:01Z",
-    "duration": 5,
-    "modified": "2025-01-09T07:52:22Z",
-    "repo": "https://github.com/microsoft/fluentui-apple.git",
-    "runid": 12685324254,
-    "stars": 915,
-    "status": "success"
   },
   {
     "created": "2025-01-06T23:09:20Z",
@@ -3583,12 +3583,12 @@
   },
   {
     "created": "2025-01-07T04:48:02Z",
-    "duration": 206,
-    "modified": "2025-03-13T12:59:28Z",
+    "duration": 226,
+    "modified": "2025-04-24T09:08:48Z",
     "repo": "https://github.com/apple/app-store-server-library-swift.git",
-    "runid": 13834795383,
-    "stars": 243,
-    "status": "failure"
+    "runid": 14637012215,
+    "stars": 246,
+    "status": "success"
   },
   {
     "created": "2025-01-07T06:37:51Z",
@@ -4996,12 +4996,12 @@
   },
   {
     "created": "2025-01-07T10:22:21Z",
-    "duration": 228,
-    "modified": "2025-03-12T22:47:52Z",
+    "duration": 261,
+    "modified": "2025-04-23T17:16:28Z",
     "repo": "https://github.com/MihaelIsaev/FCM.git",
-    "runid": 13822612389,
+    "runid": 14623206288,
     "stars": 129,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T01:37:44Z",
@@ -6156,6 +6156,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-15T03:30:40Z",
+    "duration": 288,
+    "modified": "2025-04-24T07:12:08Z",
+    "repo": "https://github.com/vapor-community/wallet.git",
+    "runid": 14634957633,
+    "stars": 84,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T00:54:19Z",
     "duration": 3,
     "modified": "2025-01-07T00:54:19Z",
@@ -6514,15 +6523,6 @@
     "runid": 12680001524,
     "stars": 74,
     "status": "success"
-  },
-  {
-    "created": "2025-01-15T03:30:40Z",
-    "duration": 85,
-    "modified": "2025-01-15T03:30:40Z",
-    "repo": "https://github.com/vapor-community/wallet.git",
-    "runid": 12780866324,
-    "stars": 73,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T12:22:21Z",
@@ -6949,12 +6949,12 @@
   },
   {
     "created": "2025-01-07T02:12:48Z",
-    "duration": 3,
-    "modified": "2025-04-20T07:45:08Z",
+    "duration": 9,
+    "modified": "2025-04-23T10:04:55Z",
     "repo": "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git",
-    "runid": 14557191770,
+    "runid": 14614609789,
     "stars": 64,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T23:41:54Z",
@@ -8704,12 +8704,12 @@
   },
   {
     "created": "2025-01-07T06:55:29Z",
-    "duration": 192,
-    "modified": "2025-03-12T17:33:57Z",
+    "duration": 229,
+    "modified": "2025-04-23T11:25:16Z",
     "repo": "https://github.com/m-barthelemy/AcmeSwift.git",
-    "runid": 13817513725,
+    "runid": 14616805599,
     "stars": 41,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T09:05:45Z",
@@ -9610,6 +9610,15 @@
     "runid": 12660929108,
     "stars": 31,
     "status": "success"
+  },
+  {
+    "created": "2025-04-23T20:35:23Z",
+    "duration": 74,
+    "modified": "2025-04-23T20:35:23Z",
+    "repo": "https://github.com/p-x9/swift-weak-self-check.git",
+    "runid": 14627372518,
+    "stars": 31,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T03:57:19Z",
@@ -10647,6 +10656,15 @@
     "status": "success"
   },
   {
+    "created": "2025-03-22T11:52:35Z",
+    "duration": 114,
+    "modified": "2025-04-24T03:34:33Z",
+    "repo": "https://github.com/beatt83/jose-swift.git",
+    "runid": 14632524377,
+    "stars": 24,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T11:56:55Z",
     "duration": 10,
     "modified": "2025-01-08T04:29:37Z",
@@ -11419,15 +11437,6 @@
     "runid": 13379383758,
     "stars": 20,
     "status": "success"
-  },
-  {
-    "created": "2025-03-22T11:52:35Z",
-    "duration": 37,
-    "modified": "2025-03-22T11:52:35Z",
-    "repo": "https://github.com/beatt83/jose-swift.git",
-    "runid": 14008027973,
-    "stars": 20,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T01:20:39Z",
@@ -13176,6 +13185,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T10:35:57Z",
+    "duration": 91,
+    "modified": "2025-04-24T06:54:52Z",
+    "repo": "https://github.com/fpseverino/swift-wallet.git",
+    "runid": 14634957633,
+    "stars": 13,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T21:16:23Z",
     "duration": 194,
     "modified": "2025-03-13T07:46:35Z",
@@ -13635,15 +13653,6 @@
     "status": "failure"
   },
   {
-    "created": "2025-01-07T10:35:57Z",
-    "duration": 89,
-    "modified": "2025-03-13T11:06:30Z",
-    "repo": "https://github.com/fpseverino/swift-wallet.git",
-    "runid": 13832280011,
-    "stars": 12,
-    "status": "failure"
-  },
-  {
     "created": "2025-01-06T20:40:11Z",
     "duration": 6,
     "modified": "2025-01-07T05:31:44Z",
@@ -13843,12 +13852,12 @@
   },
   {
     "created": "2025-01-07T11:48:22Z",
-    "duration": 1,
-    "modified": "2025-04-22T07:23:37Z",
+    "duration": 6,
+    "modified": "2025-04-23T08:58:47Z",
     "repo": "https://github.com/AgoraIO/AgoraAudio_iOS.git",
-    "runid": 14589049791,
+    "runid": 14613521572,
     "stars": 12,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T01:12:07Z",
@@ -17811,6 +17820,15 @@
     "status": "success"
   },
   {
+    "created": "2025-04-23T17:54:07Z",
+    "duration": 10,
+    "modified": "2025-04-23T17:54:07Z",
+    "repo": "https://github.com/kustomer/kustomer-ios.git",
+    "runid": 14624143845,
+    "stars": 5,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T12:28:29Z",
     "duration": 7,
     "modified": "2025-01-09T08:46:38Z",
@@ -17852,6 +17870,15 @@
     "modified": "2025-01-08T11:31:22Z",
     "repo": "https://github.com/ileitch/swift-filename-matcher.git",
     "runid": 12669458619,
+    "stars": 5,
+    "status": "success"
+  },
+  {
+    "created": "2025-01-31T06:41:59Z",
+    "duration": 267,
+    "modified": "2025-04-24T05:14:05Z",
+    "repo": "https://github.com/hummingbird-community/hummingbird-wallet.git",
+    "runid": 14633391063,
     "stars": 5,
     "status": "success"
   },
@@ -18923,15 +18950,6 @@
     "modified": "2025-01-09T07:38:57Z",
     "repo": "https://github.com/iamjono/SwiftMoment.git",
     "runid": 12685324254,
-    "stars": 4,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-31T06:41:59Z",
-    "duration": 60,
-    "modified": "2025-01-31T06:41:59Z",
-    "repo": "https://github.com/hummingbird-community/hummingbird-wallet.git",
-    "runid": 13067607083,
     "stars": 4,
     "status": "failure"
   },
@@ -25147,12 +25165,12 @@
   },
   {
     "created": "2025-01-12T23:21:51Z",
-    "duration": 139,
-    "modified": "2025-03-12T20:56:54Z",
+    "duration": 133,
+    "modified": "2025-04-24T11:46:18Z",
     "repo": "https://github.com/fpseverino/fluent-wallet.git",
-    "runid": 13820792400,
+    "runid": 14640278821,
     "stars": 1,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T10:56:12Z",
@@ -25637,6 +25655,24 @@
     "modified": "2025-01-06T22:47:48Z",
     "repo": "https://github.com/benjamincassidy/Fiqh.git",
     "runid": 12641431024,
+    "stars": 1,
+    "status": "success"
+  },
+  {
+    "created": "2025-04-23T14:30:32Z",
+    "duration": 8,
+    "modified": "2025-04-23T14:30:32Z",
+    "repo": "https://github.com/beeauvin/Sable.git",
+    "runid": 14620558689,
+    "stars": 1,
+    "status": "success"
+  },
+  {
+    "created": "2025-04-22T23:41:25Z",
+    "duration": 6,
+    "modified": "2025-04-22T23:41:25Z",
+    "repo": "https://github.com/beeauvin/Obsidian.git",
+    "runid": 14606416650,
     "stars": 1,
     "status": "success"
   },
