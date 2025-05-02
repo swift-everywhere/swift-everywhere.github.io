@@ -13095,6 +13095,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-01T23:55:11Z",
+    "duration": 14,
+    "modified": "2025-05-01T23:55:11Z",
+    "repo": "https://github.com/toshi0383/hackscode.git",
+    "runid": 14785302127,
+    "stars": 13,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T09:42:45Z",
     "duration": 13,
     "modified": "2025-01-09T10:03:34Z",
@@ -18725,6 +18734,15 @@
     "modified": "2025-01-08T19:32:25Z",
     "repo": "https://github.com/navanchauhan/swift-gopher.git",
     "runid": 12677445864,
+    "stars": 4,
+    "status": "failure"
+  },
+  {
+    "created": "2025-05-01T22:00:59Z",
+    "duration": 17,
+    "modified": "2025-05-01T22:00:59Z",
+    "repo": "https://github.com/mrLSD/swift-evm.git",
+    "runid": 14783722894,
     "stars": 4,
     "status": "failure"
   },
@@ -29059,6 +29077,15 @@
     "runid": 12640899049,
     "stars": 0,
     "status": "failure"
+  },
+  {
+    "created": "2025-05-02T01:44:10Z",
+    "duration": 22,
+    "modified": "2025-05-02T01:44:10Z",
+    "repo": "https://github.com/kkla320/DurationParseStrategy.git",
+    "runid": 14786992250,
+    "stars": 0,
+    "status": "success"
   },
   {
     "created": "2025-01-06T22:02:06Z",
