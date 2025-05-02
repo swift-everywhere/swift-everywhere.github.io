@@ -5031,6 +5031,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-05-02T09:49:44Z",
+    "duration": 9,
+    "modified": "2025-05-02T09:49:44Z",
+    "repo": "https://github.com/toshi0383/xcconfig-extractor.git",
+    "runid": 14792492357,
+    "stars": 127,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T14:41:37Z",
     "duration": 8,
     "modified": "2025-01-08T18:45:18Z",
@@ -6606,6 +6615,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-02T12:00:25Z",
+    "duration": 80,
+    "modified": "2025-05-02T12:00:25Z",
+    "repo": "https://github.com/apple/swift-play-experimental.git",
+    "runid": 14794173115,
+    "stars": 72,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T00:05:47Z",
     "duration": 5,
     "modified": "2025-01-09T03:26:20Z",
@@ -7511,6 +7529,15 @@
     "modified": "2025-01-07T20:52:18Z",
     "repo": "https://github.com/orchetect/SwiftRadix.git",
     "runid": 12658681935,
+    "stars": 55,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-02T06:01:19Z",
+    "duration": 7,
+    "modified": "2025-05-02T06:01:19Z",
+    "repo": "https://github.com/markbattistella/BezelKit.git",
+    "runid": 14789218616,
     "stars": 55,
     "status": "success"
   },
@@ -20286,6 +20313,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-02T09:49:21Z",
+    "duration": 8,
+    "modified": "2025-05-02T09:49:21Z",
+    "repo": "https://github.com/kabiroberai/zsign.git",
+    "runid": 14792492357,
+    "stars": 3,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T00:59:54Z",
     "duration": 12,
     "modified": "2025-01-07T19:01:15Z",
@@ -22140,6 +22176,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-05-02T13:57:40Z",
+    "duration": 6,
+    "modified": "2025-05-02T13:57:40Z",
+    "repo": "https://github.com/kubens/RRuleKit.git",
+    "runid": 14796180700,
+    "stars": 2,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T23:38:22Z",
     "duration": 7,
     "modified": "2025-01-08T16:40:16Z",
@@ -23526,6 +23571,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-02T08:04:31Z",
+    "duration": 11,
+    "modified": "2025-05-02T08:04:31Z",
+    "repo": "https://github.com/21-DOT-DEV/swift-plugin-tuist.git",
+    "runid": 14790696368,
+    "stars": 2,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T20:12:50Z",
     "duration": 6,
     "modified": "2025-01-09T14:15:48Z",
@@ -24467,6 +24521,15 @@
     "modified": "2025-01-09T09:35:23Z",
     "repo": "https://github.com/phimage/NotarizationAuditLog.git",
     "runid": 12686975202,
+    "stars": 1,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-02T05:30:39Z",
+    "duration": 75,
+    "modified": "2025-05-02T05:30:39Z",
+    "repo": "https://github.com/ph1ps/swift-semantic-version.git",
+    "runid": 14789218616,
     "stars": 1,
     "status": "success"
   },
@@ -25565,6 +25628,15 @@
     "modified": "2025-02-04T16:51:16Z",
     "repo": "https://github.com/brunogama/RequestModelMacro.git",
     "runid": 13140049374,
+    "stars": 1,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-02T04:26:08Z",
+    "duration": 7,
+    "modified": "2025-05-02T04:26:08Z",
+    "repo": "https://github.com/brunogama/HeterogeneousBox.git",
+    "runid": 14788641781,
     "stars": 1,
     "status": "success"
   },
@@ -27140,6 +27212,15 @@
     "modified": "2025-01-08T10:58:10Z",
     "repo": "https://github.com/zunda-pixel/swift-currency.git",
     "runid": 12668573804,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-02T06:38:28Z",
+    "duration": 32,
+    "modified": "2025-05-02T06:38:28Z",
+    "repo": "https://github.com/zunda-pixel/sharing-remoteconfig.git",
+    "runid": 14790029362,
     "stars": 0,
     "status": "success"
   },
@@ -29043,6 +29124,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-05-02T19:06:50Z",
+    "duration": 28,
+    "modified": "2025-05-02T19:06:50Z",
+    "repo": "https://github.com/laosb/swift-minisign.git",
+    "runid": 14801066291,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T11:23:21Z",
     "duration": 94,
     "modified": "2025-04-04T11:34:15Z",
@@ -29691,6 +29781,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-02T08:44:58Z",
+    "duration": 15,
+    "modified": "2025-05-02T08:44:58Z",
+    "repo": "https://github.com/ensan-hcl/swift-tokenizers.git",
+    "runid": 14791655518,
+    "stars": 0,
+    "status": "success"
+  },
+  {
     "created": "2025-02-11T02:50:12Z",
     "duration": 10,
     "modified": "2025-02-11T02:50:13Z",
@@ -29903,6 +30002,15 @@
     "modified": "2025-01-09T11:20:23Z",
     "repo": "https://github.com/drewag/SwiftDate.git",
     "runid": 12688803372,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
+    "created": "2025-05-02T06:47:28Z",
+    "duration": 1,
+    "modified": "2025-05-02T06:47:28Z",
+    "repo": "https://github.com/dimakura/SSpec.git",
+    "runid": 14790029362,
     "stars": 0,
     "status": "failure"
   },
@@ -30193,6 +30301,15 @@
     "runid": 12688803372,
     "stars": 0,
     "status": "failure"
+  },
+  {
+    "created": "2025-05-02T07:47:25Z",
+    "duration": 75,
+    "modified": "2025-05-02T07:47:26Z",
+    "repo": "https://github.com/bonkey/swift-macro-testing.git",
+    "runid": 14790696368,
+    "stars": 0,
+    "status": "success"
   },
   {
     "created": "2025-01-07T08:38:10Z",
@@ -30623,6 +30740,15 @@
     "modified": "2025-01-09T07:53:51Z",
     "repo": "https://github.com/SwiftPackageIndex/ShellQuote.git",
     "runid": 12685324254,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-02T03:44:21Z",
+    "duration": 7,
+    "modified": "2025-05-02T03:44:21Z",
+    "repo": "https://github.com/SwiftPackageIndex/PackageCollections.git",
+    "runid": 14787864572,
     "stars": 0,
     "status": "success"
   },
