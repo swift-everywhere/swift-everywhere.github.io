@@ -11052,6 +11052,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-03T13:16:39Z",
+    "duration": 58,
+    "modified": "2025-05-03T13:16:39Z",
+    "repo": "https://github.com/fetch-rewards/SwiftSyntaxSugar.git",
+    "runid": 14810930732,
+    "stars": 22,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T12:41:22Z",
     "duration": 7,
     "modified": "2025-01-09T08:02:18Z",
@@ -13258,12 +13267,12 @@
   },
   {
     "created": "2025-01-06T22:39:37Z",
-    "duration": 1,
-    "modified": "2025-05-03T10:03:11Z",
+    "duration": 15,
+    "modified": "2025-05-03T19:55:52Z",
     "repo": "https://github.com/getditto/DittoSwiftPackage.git",
-    "runid": 14809548640,
+    "runid": 14813841904,
     "stars": 13,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-07T10:35:57Z",
@@ -13273,6 +13282,15 @@
     "runid": 14634957633,
     "stars": 13,
     "status": "success"
+  },
+  {
+    "created": "2025-05-03T17:41:36Z",
+    "duration": 3,
+    "modified": "2025-05-03T17:41:36Z",
+    "repo": "https://github.com/forXifLess/URLEncodedForm.git",
+    "runid": 14812979193,
+    "stars": 13,
+    "status": "failure"
   },
   {
     "created": "2025-01-06T22:10:54Z",
@@ -20763,6 +20781,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-03T23:03:26Z",
+    "duration": 65,
+    "modified": "2025-05-03T23:03:26Z",
+    "repo": "https://github.com/bonkey/AwaitlessKit.git",
+    "runid": 14815077816,
+    "stars": 3,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T06:05:48Z",
     "duration": 6,
     "modified": "2025-01-08T01:29:50Z",
@@ -23603,6 +23630,15 @@
     "modified": "2025-05-02T08:04:31Z",
     "repo": "https://github.com/21-DOT-DEV/swift-plugin-tuist.git",
     "runid": 14790696368,
+    "stars": 2,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-03T22:24:27Z",
+    "duration": 6,
+    "modified": "2025-05-03T22:24:27Z",
+    "repo": "https://github.com/21-DOT-DEV/swift-artifact-parser.git",
+    "runid": 14815077816,
     "stars": 2,
     "status": "success"
   },
