@@ -4608,6 +4608,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-05-04T07:41:21Z",
+    "duration": 127,
+    "modified": "2025-05-04T07:41:21Z",
+    "repo": "https://github.com/pointfreeco/swift-structured-queries.git",
+    "runid": 14818890750,
+    "stars": 155,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T12:46:20Z",
     "duration": 18,
     "modified": "2025-01-07T12:46:20Z",
@@ -5821,6 +5830,15 @@
     "runid": 12685324254,
     "stars": 95,
     "status": "success"
+  },
+  {
+    "created": "2025-05-04T14:56:43Z",
+    "duration": 37,
+    "modified": "2025-05-04T14:56:43Z",
+    "repo": "https://github.com/pointfreeco/vapor-routing.git",
+    "runid": 14822085797,
+    "stars": 95,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T08:06:49Z",
@@ -7407,6 +7425,15 @@
     "status": "success"
   },
   {
+    "created": "2025-03-01T18:04:25Z",
+    "duration": 280,
+    "modified": "2025-05-04T04:51:20Z",
+    "repo": "https://github.com/petrpavlik/vapor-saas-backend-template.git",
+    "runid": 14817680697,
+    "stars": 57,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T21:29:09Z",
     "duration": 33,
     "modified": "2025-01-08T14:22:06Z",
@@ -7459,15 +7486,6 @@
     "runid": 12684763216,
     "stars": 56,
     "status": "success"
-  },
-  {
-    "created": "2025-03-01T18:04:25Z",
-    "duration": 224,
-    "modified": "2025-03-25T18:06:16Z",
-    "repo": "https://github.com/petrpavlik/vapor-saas-backend-template.git",
-    "runid": 14066030454,
-    "stars": 56,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T02:06:45Z",
@@ -20970,6 +20988,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-04T02:07:23Z",
+    "duration": 11,
+    "modified": "2025-05-04T02:07:23Z",
+    "repo": "https://github.com/SuperchargeApp/SuperchargeCore.git",
+    "runid": 14816572533,
+    "stars": 3,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T00:19:47Z",
     "duration": 8,
     "modified": "2025-01-09T09:01:22Z",
@@ -27603,6 +27630,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-04T05:48:27Z",
+    "duration": 76,
+    "modified": "2025-05-04T05:48:27Z",
+    "repo": "https://github.com/vault-courier/vault-courier.git",
+    "runid": 14818043811,
+    "stars": 0,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T12:14:54Z",
     "duration": 70,
     "modified": "2025-01-08T11:23:23Z",
@@ -30051,6 +30087,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-04T10:48:52Z",
+    "duration": 6,
+    "modified": "2025-05-04T10:48:52Z",
+    "repo": "https://github.com/dreymonde/ConvertNumbersToJapanese.git",
+    "runid": 14820239498,
+    "stars": 0,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T22:02:52Z",
     "duration": 13,
     "modified": "2025-01-06T22:02:52Z",
@@ -32198,6 +32243,15 @@
     "modified": "2025-04-02T10:37:30Z",
     "repo": "https://github.com/Catterwaul/Thrappture.git",
     "runid": 14217278121,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-04T01:54:26Z",
+    "duration": 17,
+    "modified": "2025-05-04T01:54:27Z",
+    "repo": "https://github.com/Catterwaul/HemiprocneMystaceaError.git",
+    "runid": 14816572533,
     "stars": 0,
     "status": "success"
   },
