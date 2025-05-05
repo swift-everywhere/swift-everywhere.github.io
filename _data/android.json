@@ -12339,6 +12339,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-05T09:06:27Z",
+    "duration": 9,
+    "modified": "2025-05-05T09:06:27Z",
+    "repo": "https://github.com/wei18/github-rest-api-swift-openapi.git",
+    "runid": 14832293149,
+    "stars": 16,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T01:46:45Z",
     "duration": 171,
     "modified": "2025-01-07T23:05:39Z",
@@ -20282,6 +20291,15 @@
     "modified": "2025-01-09T12:50:41Z",
     "repo": "https://github.com/markbattistella/PhraseKit.git",
     "runid": 12690021172,
+    "stars": 3,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-05T04:30:36Z",
+    "duration": 8,
+    "modified": "2025-05-05T04:30:36Z",
+    "repo": "https://github.com/marcusziade/OpenAIImagesKit.git",
+    "runid": 14829022078,
     "stars": 3,
     "status": "success"
   },
