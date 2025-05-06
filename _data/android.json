@@ -1638,6 +1638,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-05-05T22:37:50Z",
+    "duration": 14,
+    "modified": "2025-05-05T22:37:50Z",
+    "repo": "https://github.com/apple/swift-embedded-examples.git",
+    "runid": 14847411948,
+    "stars": 863,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T17:12:05Z",
     "duration": 5,
     "modified": "2025-01-08T23:30:36Z",
@@ -14625,6 +14634,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-05-06T07:24:28Z",
+    "duration": 13,
+    "modified": "2025-05-06T07:24:28Z",
+    "repo": "https://github.com/chiragramani/Tron.git",
+    "runid": 14853910854,
+    "stars": 10,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T07:45:30Z",
     "duration": 4,
     "modified": "2025-01-07T21:31:05Z",
@@ -23904,6 +23922,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-06T06:42:41Z",
+    "duration": 26,
+    "modified": "2025-05-06T06:42:41Z",
+    "repo": "https://github.com/wei18/GitHubSwiftActions.git",
+    "runid": 14853093946,
+    "stars": 1,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-06T17:42:58Z",
     "duration": 10,
     "modified": "2025-01-07T19:00:50Z",
@@ -29392,6 +29419,15 @@
     "runid": 14043036833,
     "stars": 0,
     "status": "failure"
+  },
+  {
+    "created": "2025-05-06T14:37:35Z",
+    "duration": 66,
+    "modified": "2025-05-06T14:37:36Z",
+    "repo": "https://github.com/jordanekay/URL.git",
+    "runid": 14862086577,
+    "stars": 0,
+    "status": "success"
   },
   {
     "created": "2025-03-24T18:35:23Z",
