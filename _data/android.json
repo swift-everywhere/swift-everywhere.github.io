@@ -1971,6 +1971,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-07T11:19:05Z",
+    "duration": 9,
+    "modified": "2025-05-10T20:38:56Z",
+    "repo": "https://github.com/nicklockwood/Euclid.git",
+    "runid": 14948808023,
+    "stars": 657,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T06:33:44Z",
     "duration": 61,
     "modified": "2025-01-09T08:00:18Z",
@@ -1996,15 +2005,6 @@
     "runid": 12676738885,
     "stars": 648,
     "status": "failure"
-  },
-  {
-    "created": "2025-01-07T11:19:05Z",
-    "duration": 9,
-    "modified": "2025-01-08T09:02:33Z",
-    "repo": "https://github.com/nicklockwood/Euclid.git",
-    "runid": 12666722268,
-    "stars": 646,
-    "status": "success"
   },
   {
     "created": "2025-01-07T05:23:24Z",
@@ -2266,6 +2266,15 @@
     "runid": 12672398001,
     "stars": 507,
     "status": "success"
+  },
+  {
+    "created": "2025-04-14T12:43:18Z",
+    "duration": 12,
+    "modified": "2025-05-09T22:42:00Z",
+    "repo": "https://github.com/modelcontextprotocol/swift-sdk.git",
+    "runid": 14938662999,
+    "stars": 497,
+    "status": "failure"
   },
   {
     "created": "2025-01-06T21:51:16Z",
@@ -2851,15 +2860,6 @@
     "runid": 14420029089,
     "stars": 348,
     "status": "failure"
-  },
-  {
-    "created": "2025-04-14T12:43:18Z",
-    "duration": 14,
-    "modified": "2025-04-14T12:43:18Z",
-    "repo": "https://github.com/modelcontextprotocol/swift-sdk.git",
-    "runid": 14445877621,
-    "stars": 347,
-    "status": "success"
   },
   {
     "created": "2025-01-06T17:43:23Z",
@@ -6428,11 +6428,11 @@
   {
     "created": "2025-01-06T23:25:47Z",
     "duration": 7,
-    "modified": "2025-01-27T13:49:43Z",
+    "modified": "2025-05-09T22:52:56Z",
     "repo": "https://github.com/ChimeHQ/Rearrange.git",
-    "runid": 12989993548,
+    "runid": 14938662999,
     "stars": 78,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T23:16:48Z",
@@ -13473,6 +13473,15 @@
     "status": "success"
   },
   {
+    "created": "2025-05-07T12:55:51Z",
+    "duration": 1,
+    "modified": "2025-05-09T17:23:29Z",
+    "repo": "https://github.com/OpenSwiftUIProject/SymbolLocator.git",
+    "runid": 14934191577,
+    "stars": 13,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T01:59:18Z",
     "duration": 17,
     "modified": "2025-01-07T01:59:19Z",
@@ -14913,6 +14922,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-01-07T01:23:02Z",
+    "duration": 6,
+    "modified": "2025-05-10T03:53:55Z",
+    "repo": "https://github.com/tuist/ProjectAutomation.git",
+    "runid": 14941524050,
+    "stars": 9,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T23:38:55Z",
     "duration": 237,
     "modified": "2025-02-19T14:33:40Z",
@@ -15435,15 +15453,6 @@
     "status": "success"
   },
   {
-    "created": "2025-01-07T01:23:02Z",
-    "duration": 6,
-    "modified": "2025-01-09T04:52:13Z",
-    "repo": "https://github.com/tuist/ProjectAutomation.git",
-    "runid": 12683582618,
-    "stars": 8,
-    "status": "failure"
-  },
-  {
     "created": "2025-01-07T08:49:00Z",
     "duration": 26,
     "modified": "2025-01-08T13:52:00Z",
@@ -15847,15 +15856,6 @@
     "runid": 12648641718,
     "stars": 8,
     "status": "failure"
-  },
-  {
-    "created": "2025-05-07T12:55:51Z",
-    "duration": 1,
-    "modified": "2025-05-07T12:55:51Z",
-    "repo": "https://github.com/OpenSwiftUIProject/SymbolLocator.git",
-    "runid": 14883661127,
-    "stars": 8,
-    "status": "success"
   },
   {
     "created": "2025-01-07T13:48:26Z",
@@ -17947,12 +17947,12 @@
   },
   {
     "created": "2025-05-08T20:56:36Z",
-    "duration": 24,
-    "modified": "2025-05-08T20:56:36Z",
+    "duration": 1,
+    "modified": "2025-05-10T21:58:31Z",
     "repo": "https://github.com/maclong9/web-ui.git",
-    "runid": 14915422005,
+    "runid": 14949206974,
     "stars": 5,
-    "status": "success"
+    "status": "failure"
   },
   {
     "created": "2025-01-07T08:00:47Z",
