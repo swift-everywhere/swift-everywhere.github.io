@@ -5355,6 +5355,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T06:07:27Z",
+    "duration": 218,
+    "modified": "2025-05-11T21:48:41Z",
+    "repo": "https://github.com/soto-project/soto-core.git",
+    "runid": 14959788525,
+    "stars": 115,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T00:49:02Z",
     "duration": 17,
     "modified": "2025-01-09T07:43:37Z",
@@ -5432,15 +5441,6 @@
     "modified": "2025-01-07T17:42:42Z",
     "repo": "https://github.com/svdo/swift-netutils.git",
     "runid": 12656035496,
-    "stars": 112,
-    "status": "failure"
-  },
-  {
-    "created": "2025-01-07T06:07:27Z",
-    "duration": 31,
-    "modified": "2025-01-09T09:06:39Z",
-    "repo": "https://github.com/soto-project/soto-core.git",
-    "runid": 12686130628,
     "stars": 112,
     "status": "failure"
   },
@@ -27491,6 +27491,15 @@
     "modified": "2025-02-01T07:18:10Z",
     "repo": "https://github.com/xcode-actions/gha-logger.git",
     "runid": 13086391204,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-11T22:21:40Z",
+    "duration": 9,
+    "modified": "2025-05-11T22:21:40Z",
+    "repo": "https://github.com/x-sheep/swift-property-based.git",
+    "runid": 14960227733,
     "stars": 0,
     "status": "success"
   },
