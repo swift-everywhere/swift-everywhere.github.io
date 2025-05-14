@@ -9846,6 +9846,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-05-14T14:38:12Z",
+    "duration": 39,
+    "modified": "2025-05-14T14:38:12Z",
+    "repo": "https://github.com/apple/swift-ntp.git",
+    "runid": 15023215208,
+    "stars": 30,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T05:52:09Z",
     "duration": 10,
     "modified": "2025-01-07T05:52:09Z",
