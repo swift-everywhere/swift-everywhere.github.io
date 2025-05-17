@@ -261,6 +261,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-05-17T09:07:30Z",
+    "duration": 28,
+    "modified": "2025-05-17T09:07:30Z",
+    "repo": "https://github.com/swiftlang/swift-corelibs-foundation.git",
+    "runid": 15083397427,
+    "stars": 5356,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T07:25:11Z",
     "duration": 8,
     "modified": "2025-01-07T18:38:24Z",
@@ -22858,6 +22867,15 @@
     "runid": 12647794335,
     "stars": 2,
     "status": "failure"
+  },
+  {
+    "created": "2025-05-17T12:58:04Z",
+    "duration": 67,
+    "modified": "2025-05-17T12:58:04Z",
+    "repo": "https://github.com/drekka/DayType.git",
+    "runid": 15085265884,
+    "stars": 2,
+    "status": "success"
   },
   {
     "created": "2025-01-07T13:21:42Z",
