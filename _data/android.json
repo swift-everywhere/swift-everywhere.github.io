@@ -1982,11 +1982,11 @@
   {
     "created": "2025-01-07T11:19:05Z",
     "duration": 9,
-    "modified": "2025-05-10T20:38:56Z",
+    "modified": "2025-05-19T04:56:27Z",
     "repo": "https://github.com/nicklockwood/Euclid.git",
-    "runid": 14948808023,
-    "stars": 657,
-    "status": "failure"
+    "runid": 15104312653,
+    "stars": 658,
+    "status": "success"
   },
   {
     "created": "2025-01-07T06:33:44Z",
@@ -8197,6 +8197,15 @@
     "runid": 12686130628,
     "stars": 47,
     "status": "success"
+  },
+  {
+    "created": "2025-05-18T17:35:03Z",
+    "duration": 14,
+    "modified": "2025-05-18T17:35:03Z",
+    "repo": "https://github.com/SwiftGL/OpenGL.git",
+    "runid": 15098253401,
+    "stars": 47,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T04:15:07Z",
@@ -22582,12 +22591,12 @@
   },
   {
     "created": "2025-02-17T04:28:19Z",
-    "duration": 98,
-    "modified": "2025-02-17T04:28:19Z",
+    "duration": 22,
+    "modified": "2025-05-19T00:02:10Z",
     "repo": "https://github.com/hayesgm/Eth.swift.git",
-    "runid": 13362808963,
+    "runid": 15101047937,
     "stars": 2,
-    "status": "success"
+    "status": "failure"
   },
   {
     "created": "2025-01-06T22:55:08Z",
@@ -30344,6 +30353,15 @@
     "modified": "2025-05-13T06:52:38Z",
     "repo": "https://github.com/dev-retro/RetroKit.git",
     "runid": 14989777959,
+    "stars": 0,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-18T22:43:40Z",
+    "duration": 6,
+    "modified": "2025-05-18T22:43:40Z",
+    "repo": "https://github.com/dev-hamin-kim/HangulKit.git",
+    "runid": 15100598886,
     "stars": 0,
     "status": "success"
   },
