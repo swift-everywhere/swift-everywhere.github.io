@@ -738,21 +738,21 @@
     "status": "failure"
   },
   {
+    "created": "2025-02-05T05:33:39Z",
+    "duration": 184,
+    "modified": "2025-05-21T19:36:45Z",
+    "repo": "https://github.com/swiftlang/swift-build.git",
+    "runid": 15170693859,
+    "stars": 2031,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T20:49:58Z",
     "duration": 39,
     "modified": "2025-05-03T05:28:11Z",
     "repo": "https://github.com/twostraws/Ignite.git",
     "runid": 14807836021,
     "stars": 2015,
-    "status": "failure"
-  },
-  {
-    "created": "2025-02-05T05:33:39Z",
-    "duration": 59,
-    "modified": "2025-05-07T09:14:47Z",
-    "repo": "https://github.com/swiftlang/swift-build.git",
-    "runid": 14878778637,
-    "stars": 2006,
     "status": "failure"
   },
   {
@@ -1620,6 +1620,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-06T20:02:56Z",
+    "duration": 13,
+    "modified": "2025-05-21T10:26:14Z",
+    "repo": "https://github.com/getsentry/sentry-cocoa.git",
+    "runid": 15159713243,
+    "stars": 901,
+    "status": "failure"
+  },
+  {
     "created": "2025-01-07T12:31:59Z",
     "duration": 16,
     "modified": "2025-01-08T14:38:45Z",
@@ -1689,15 +1698,6 @@
     "repo": "https://github.com/nicklockwood/Expression.git",
     "runid": 12676738885,
     "stars": 832,
-    "status": "success"
-  },
-  {
-    "created": "2025-01-06T20:02:56Z",
-    "duration": 11,
-    "modified": "2025-01-07T20:02:45Z",
-    "repo": "https://github.com/getsentry/sentry-cocoa.git",
-    "runid": 12658091539,
-    "stars": 829,
     "status": "success"
   },
   {
