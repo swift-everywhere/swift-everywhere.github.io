@@ -1215,6 +1215,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-07T13:03:18Z",
+    "duration": 96,
+    "modified": "2025-05-24T15:22:09Z",
+    "repo": "https://github.com/swiftlang/swift-llbuild.git",
+    "runid": 15228408172,
+    "stars": 1201,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T08:18:09Z",
     "duration": 12,
     "modified": "2025-01-09T03:52:12Z",
@@ -1222,15 +1231,6 @@
     "runid": 12682932578,
     "stars": 1201,
     "status": "success"
-  },
-  {
-    "created": "2025-01-07T13:03:18Z",
-    "duration": 80,
-    "modified": "2025-05-06T20:52:39Z",
-    "repo": "https://github.com/swiftlang/swift-llbuild.git",
-    "runid": 14869002387,
-    "stars": 1199,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T00:43:09Z",
@@ -7305,6 +7305,15 @@
     "repo": "https://github.com/Joannis/VaporSMTPKit.git",
     "runid": 12684077543,
     "stars": 60,
+    "status": "failure"
+  },
+  {
+    "created": "2025-05-23T23:01:52Z",
+    "duration": 33,
+    "modified": "2025-05-23T23:01:52Z",
+    "repo": "https://github.com/tuist/Rosalind.git",
+    "runid": 15220185039,
+    "stars": 59,
     "status": "failure"
   },
   {
