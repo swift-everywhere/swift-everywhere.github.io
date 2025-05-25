@@ -2836,12 +2836,12 @@
   },
   {
     "created": "2025-01-07T08:31:27Z",
-    "duration": 9,
-    "modified": "2025-01-09T11:38:08Z",
+    "duration": 19,
+    "modified": "2025-05-24T21:55:10Z",
     "repo": "https://github.com/apple/swift-collections-benchmark.git",
-    "runid": 12688803372,
-    "stars": 350,
-    "status": "failure"
+    "runid": 15231057491,
+    "stars": 356,
+    "status": "success"
   },
   {
     "created": "2025-01-07T03:51:53Z",
@@ -27284,6 +27284,15 @@
     "modified": "2025-01-07T01:43:26Z",
     "repo": "https://github.com/DavidSkrundz/Collections.git",
     "runid": 12643524602,
+    "stars": 1,
+    "status": "success"
+  },
+  {
+    "created": "2025-05-25T06:01:48Z",
+    "duration": 9,
+    "modified": "2025-05-25T06:01:48Z",
+    "repo": "https://github.com/DariuszGulbicki/Logging-Camp.git",
+    "runid": 15234556030,
     "stars": 1,
     "status": "success"
   },
