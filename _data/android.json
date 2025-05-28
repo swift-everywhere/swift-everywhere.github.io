@@ -1215,15 +1215,6 @@
     "status": "success"
   },
   {
-    "created": "2025-01-07T13:03:18Z",
-    "duration": 96,
-    "modified": "2025-05-24T15:22:09Z",
-    "repo": "https://github.com/swiftlang/swift-llbuild.git",
-    "runid": 15228408172,
-    "stars": 1201,
-    "status": "success"
-  },
-  {
     "created": "2025-01-07T08:18:09Z",
     "duration": 12,
     "modified": "2025-01-09T03:52:12Z",
@@ -1231,6 +1222,15 @@
     "runid": 12682932578,
     "stars": 1201,
     "status": "success"
+  },
+  {
+    "created": "2025-01-07T13:03:18Z",
+    "duration": 92,
+    "modified": "2025-05-28T07:48:49Z",
+    "repo": "https://github.com/swiftlang/swift-llbuild.git",
+    "runid": 15294015820,
+    "stars": 1200,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T00:43:09Z",
@@ -7911,6 +7911,15 @@
     "status": "success"
   },
   {
+    "created": "2025-01-06T23:22:42Z",
+    "duration": 344,
+    "modified": "2025-05-27T15:00:53Z",
+    "repo": "https://github.com/soto-project/soto-s3-file-transfer.git",
+    "runid": 15277830486,
+    "stars": 51,
+    "status": "success"
+  },
+  {
     "created": "2025-01-07T02:37:29Z",
     "duration": 7,
     "modified": "2025-01-08T13:20:26Z",
@@ -8134,15 +8143,6 @@
     "runid": 12772881979,
     "stars": 49,
     "status": "success"
-  },
-  {
-    "created": "2025-01-06T23:22:42Z",
-    "duration": 126,
-    "modified": "2025-01-09T09:27:17Z",
-    "repo": "https://github.com/soto-project/soto-s3-file-transfer.git",
-    "runid": 12686975202,
-    "stars": 48,
-    "status": "failure"
   },
   {
     "created": "2025-01-07T14:04:55Z",
@@ -13696,6 +13696,15 @@
     "runid": 12647794335,
     "stars": 12,
     "status": "success"
+  },
+  {
+    "created": "2025-05-28T05:12:36Z",
+    "duration": 17,
+    "modified": "2025-05-28T05:12:36Z",
+    "repo": "https://github.com/tattn/LocalLLMClient.git",
+    "runid": 15291489792,
+    "stars": 12,
+    "status": "failure"
   },
   {
     "created": "2025-01-07T02:52:18Z",
@@ -22716,6 +22725,15 @@
     "status": "failure"
   },
   {
+    "created": "2025-05-28T03:35:34Z",
+    "duration": 3,
+    "modified": "2025-05-28T03:35:34Z",
+    "repo": "https://github.com/googleads/google-ads-on-device-conversion-ios-sdk.git",
+    "runid": 15290623478,
+    "stars": 2,
+    "status": "success"
+  },
+  {
     "created": "2025-01-06T19:50:16Z",
     "duration": 6,
     "modified": "2025-01-09T05:34:05Z",
@@ -24521,6 +24539,15 @@
     "modified": "2025-01-07T20:42:17Z",
     "repo": "https://github.com/sersoft-gmbh/path-wrangler.git",
     "runid": 12658681935,
+    "stars": 1,
+    "status": "failure"
+  },
+  {
+    "created": "2025-05-28T04:46:44Z",
+    "duration": 105,
+    "modified": "2025-05-28T04:46:44Z",
+    "repo": "https://github.com/sena-mike/swift-longhair.git",
+    "runid": 15291489792,
     "stars": 1,
     "status": "failure"
   },
