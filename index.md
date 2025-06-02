@@ -4,8 +4,12 @@ title: Swift Everywhere – Android Build Status
 ---
 
 <div>
+
+<p><strong>Note:</strong> As of June 2025, <a href="https://swiftpackageindex.com">swiftpackageindex.com</a> has started reporting the Android build status for all their packages, as announced on their <a href="https://swiftpackageindex.com/blog/adding-wasm-and-android-compatibility-testing">blog post</a>. This page will be kept up for a time as a reference, but it will not continue to receive updated build statuses going forward. We recomment using the more comprehensive build status reporting at <a href="https://swiftpackageindex.com">swiftpackageindex.com</a> to assess Android package compatibility.</p>
+
 <p>
 <small>
+
 This site acts as a supplement to the
 <a href="https://swiftpackageindex.com">Swift Package Index</a>
 by providing build status for additional platforms such as
