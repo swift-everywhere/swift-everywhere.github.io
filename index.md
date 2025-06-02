@@ -3,21 +3,9 @@ layout: default
 title: Swift Everywhere – Android Build Status
 ---
 
-<div>
-
-<p><strong>Note:</strong> As of June 2025, <a href="https://swiftpackageindex.com">swiftpackageindex.com</a> has started reporting the Android build status for all their packages, as announced on their <a href="https://swiftpackageindex.com/blog/adding-wasm-and-android-compatibility-testing">blog post</a>. This page will be kept up for a time as a reference, but it will not continue to receive updated build statuses going forward. We recomment using the more comprehensive build status reporting at <a href="https://swiftpackageindex.com">swiftpackageindex.com</a> to assess Android package compatibility.</p>
-
-<p>
-<small>
-
-This site acts as a supplement to the
-<a href="https://swiftpackageindex.com">Swift Package Index</a>
-by providing build status for additional platforms such as
-<a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/3461">Android</a>,
-<a href="https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/1354">Windows</a>,
-and <a href="https://www.swift.org/documentation/articles/static-linux-getting-started.html">Musl</a>. 
-</small>
-</p>
+<div style="background-color: #fef3c7; border-left: 6px solid #f59e0b; padding: 16px 24px; margin: 16px 0; font-family: Arial, sans-serif; color: #78350f; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<h2 style="margin: 0 0 8px 0; font-size: 20px; color: #78350f;">Notice</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.5;">As of June 2025, <a href="https://swiftpackageindex.com">swiftpackageindex.com</a> has started reporting the Android build status for all their packages, as announced on their <a href="https://swiftpackageindex.com/blog/adding-wasm-and-android-compatibility-testing">blog post</a>. This page will be kept up for a time as a reference, but it will not continue to receive updated build statuses going forward. We recomment using the more comprehensive build status reporting at <a href="https://swiftpackageindex.com">swiftpackageindex.com</a> to assess Android package compatibility.</p>
 </div>
 
 {% assign items = site.data.android %}
