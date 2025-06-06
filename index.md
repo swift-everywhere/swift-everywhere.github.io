@@ -38,12 +38,6 @@ are successfully building for Android using the
 {% endfor %}
 </table>
 
-<hr />
-<h3>Windows Build Status: Coming Soon!</h3>
-<hr />
-<h3>Musl Build Status: Coming Soon!</h3>
-<hr />
-
 <div>
 <p>
 <small>

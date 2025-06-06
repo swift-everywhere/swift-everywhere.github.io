@@ -22663,12 +22663,12 @@
   },
   {
     "created": "2025-02-17T04:28:19Z",
-    "duration": 22,
-    "modified": "2025-05-19T00:02:10Z",
+    "duration": 81,
+    "modified": "2025-06-03T19:23:06Z",
     "repo": "https://github.com/hayesgm/Eth.swift.git",
-    "runid": 15101047937,
+    "runid": 15425895903,
     "stars": 2,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-01-06T22:55:08Z",
@@ -27667,12 +27667,12 @@
   },
   {
     "created": "2025-01-07T14:29:54Z",
-    "duration": 6,
-    "modified": "2025-01-09T08:01:13Z",
+    "duration": 12,
+    "modified": "2025-06-04T13:12:30Z",
     "repo": "https://github.com/zunda-pixel/http-client.git",
-    "runid": 12685324254,
+    "runid": 15442632023,
     "stars": 0,
-    "status": "failure"
+    "status": "success"
   },
   {
     "created": "2025-02-12T16:45:23Z",
@@ -28972,10 +28972,10 @@
   },
   {
     "created": "2025-01-07T12:48:30Z",
-    "duration": 7,
-    "modified": "2025-01-09T03:30:06Z",
+    "duration": 6,
+    "modified": "2025-06-04T21:22:17Z",
     "repo": "https://github.com/regulaforensics/DocumentReader-Swift-Package.git",
-    "runid": 12682932578,
+    "runid": 15452940244,
     "stars": 0,
     "status": "success"
   },
