@@ -26,6 +26,7 @@ const projects = (await getCollection('projects')).sort(
         <ProjectIcon
           icon={project.data.icon}
           tint={project.data.tint}
+          literal={project.data.iconLiteral}
           size="2rem"
         />
         <h3>{project.data.title}</h3>

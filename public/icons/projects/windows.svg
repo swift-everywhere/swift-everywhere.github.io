@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  Four-pane Windows mark, extracted from the rect elements of
+  https://upload.wikimedia.org/wikipedia/commons/e/e2/Windows_logo_and_wordmark_-_2021.svg
+  Coordinates are taken verbatim from the source so the proportions match
+  the official 2021 logo.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.745 48.747">
+  <rect x="0"     y="0"      width="23.105" height="23.105"/>
+  <rect x="25.64" y="0"      width="23.105" height="23.105"/>
+  <rect x="0"     y="25.642" width="23.105" height="23.105"/>
+  <rect x="25.64" y="25.642" width="23.105" height="23.105"/>
+</svg>

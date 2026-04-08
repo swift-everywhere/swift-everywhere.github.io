@@ -42,6 +42,7 @@ const recentPosts = (await getCollection('blog', ({ data }) => !data.draft))
           <ProjectIcon
             icon={project.data.icon}
             tint={project.data.tint}
+            literal={project.data.iconLiteral}
             size="2rem"
           />
           <h3>{project.data.title}</h3>

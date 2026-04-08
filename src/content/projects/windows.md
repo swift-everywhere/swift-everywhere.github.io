@@ -3,8 +3,8 @@ title: Swift on Windows
 tagline: Native Swift on Windows 10 and 11.
 description: Installer guidance, MSVC interop, and SwiftPM tips for Windows targets.
 tag: windows
-icon: desktop_windows
-tint: "#3B82F6"
+icon: windows
+tint: "#0078D4"
 order: 5
 featured: true
 ---

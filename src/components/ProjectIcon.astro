@@ -2,6 +2,7 @@
 interface Props {
   icon: string;
   tint: string;
+  literal?: boolean;
   size?: string; // any CSS length
   label?: string;
   class?: string;
@@ -10,26 +11,46 @@ interface Props {
 const {
   icon,
   tint,
+  literal = false,
   size = '1.75rem',
   label,
   class: className,
 } = Astro.props;
 
 const url = `/icons/projects/${icon}.svg`;
-const style = [
+
+// Tinted (default): render as a <span> whose background is painted with
+// the project tint and whose mask-image is the SVG. Works for any
+// single-color glyph.
+//
+// Literal: render as an <img> so the SVG's intrinsic colors are
+// preserved. Use this for multi-color brand logos.
+const tintedStyle = [
   `--icon-url: url('${url}')`,
   `--project-tint: ${tint}`,
   `--icon-size: ${size}`,
 ].join('; ');
+
+const literalStyle = `--icon-size: ${size}`;
 ---
 
-<span
-  class:list={['project-icon', className]}
-  role={label ? 'img' : undefined}
-  aria-label={label}
-  aria-hidden={label ? undefined : 'true'}
-  style={style}
-></span>
+{literal ? (
+  <img
+    src={url}
+    alt={label ?? ''}
+    aria-hidden={label ? undefined : 'true'}
+    class:list={['project-icon', 'project-icon-literal', className]}
+    style={literalStyle}
+  />
+) : (
+  <span
+    class:list={['project-icon', className]}
+    role={label ? 'img' : undefined}
+    aria-label={label}
+    aria-hidden={label ? undefined : 'true'}
+    style={tintedStyle}
+  />
+)}
 
 <style>
   .project-icon {
@@ -37,6 +58,9 @@ const style = [
     flex-shrink: 0;
     width: var(--icon-size);
     height: var(--icon-size);
+    vertical-align: middle;
+  }
+  span.project-icon {
     background-color: var(--project-tint);
     -webkit-mask-image: var(--icon-url);
     mask-image: var(--icon-url);
@@ -46,6 +70,8 @@ const style = [
     mask-position: center;
     -webkit-mask-size: contain;
     mask-size: contain;
-    vertical-align: middle;
+  }
+  .project-icon-literal {
+    object-fit: contain;
   }
 </style>

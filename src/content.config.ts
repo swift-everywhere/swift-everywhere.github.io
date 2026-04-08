@@ -30,6 +30,11 @@ const projects = defineCollection({
     tag: z.string().optional(),
     // Filename (without extension) under public/icons/projects/.
     icon: z.string(),
+    // When true, the icon SVG is rendered with its original colors via
+    // <img> instead of being tinted via CSS mask-image. Use this for
+    // multi-color brand logos where the original artwork should be
+    // preserved (e.g. the official WebAssembly logo).
+    iconLiteral: z.boolean().default(false),
     // Base hex tint color (e.g. "#3ddc84"). Used for the icon and as the
     // base for derived light/dark page accents.
     tint: z
