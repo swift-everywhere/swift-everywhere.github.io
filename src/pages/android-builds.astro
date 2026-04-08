@@ -1,0 +1,140 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import androidData from '../../_data/android.json';
+import androidStats from '../../_data/android_stats.json';
+
+interface AndroidPackage {
+  created: string;
+  duration: number;
+  modified: string;
+  repo: string;
+  runid: number;
+  stars: number;
+  status: string;
+}
+
+const items = androidData as AndroidPackage[];
+
+const total = Number(androidStats.total_packages);
+const success = Number(androidStats.success_packages);
+const percent = total > 0 ? Math.round((success / total) * 100) : 0;
+const numberFormatter = new Intl.NumberFormat('en-US');
+const generatedAt = new Date().toUTCString();
+---
+
+<BaseLayout
+  title="Android Build Status"
+  description="Build status for the most popular Swift packages on Android."
+>
+  <h1>Android Build Status</h1>
+
+  <div class="notice">
+    <h2>Notice</h2>
+    <p>
+      As of June 2025,
+      <a href="https://swiftpackageindex.com">swiftpackageindex.com</a>
+      has started reporting the Android build status for all their packages,
+      as announced on their
+      <a
+        href="https://swiftpackageindex.com/blog/adding-wasm-and-android-compatibility-testing"
+        >blog post</a
+      >. This page will be kept up for a time as a reference, but it will
+      not continue to receive updated build statuses going forward. We
+      recommend using the more comprehensive build status reporting at
+      <a href="https://swiftpackageindex.com">swiftpackageindex.com</a>
+      to assess Android package compatibility.
+    </p>
+  </div>
+
+  <h3>Android Build Status: {percent}%</h3>
+
+  <p>
+    Of the <b>{numberFormatter.format(total)}</b> packages that are
+    successfully building for
+    <a href="https://swiftpackageindex.com/search?query=platform:linux">Linux</a>,
+    <b>{numberFormatter.format(success)}</b> are successfully building for
+    Android using the
+    <a href="https://github.com/marketplace/actions/swift-android-action"
+      >GitHub swift-android-action</a
+    >.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Status</th>
+        <th>Stars</th>
+      </tr>
+    </thead>
+    <tbody>
+      {items.map((value) => (
+        <tr class:list={[value.status === 'success' ? 'row-success' : 'row-failure']}>
+          <td><a href={value.repo}>{value.repo}</a></td>
+          <td>
+            <a
+              href={`https://github.com/swift-everywhere/swift-package-builds/actions/runs/${value.runid}`}
+              >{value.status}</a
+            >
+          </td>
+          <td>{numberFormatter.format(value.stars)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <p>
+    <small class="muted">
+      This page is automatically updated by a GitHub action running at
+      <a href="https://github.com/swift-everywhere/swift-package-builds"
+        >https://github.com/swift-everywhere/swift-package-builds</a
+      >. It was last generated at {generatedAt}.
+    </small>
+  </p>
+</BaseLayout>
+
+<style>
+  .notice {
+    background-color: #fef3c7;
+    border-left: 6px solid #f59e0b;
+    padding: 16px 24px;
+    margin: 16px 0;
+    color: #78350f;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .notice h2 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    color: #78350f;
+  }
+  .notice p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .notice a {
+    color: #78350f;
+    text-decoration: underline;
+  }
+  .row-success {
+    background-color: #e6ffe6;
+  }
+  .row-failure {
+    background-color: #ffe6e6;
+  }
+  :global(:root[data-theme='dark']) .row-success {
+    background-color: #14321d;
+  }
+  :global(:root[data-theme='dark']) .row-failure {
+    background-color: #3a1717;
+  }
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme='light'])) .row-success {
+      background-color: #14321d;
+    }
+    :global(:root:not([data-theme='light'])) .row-failure {
+      background-color: #3a1717;
+    }
+  }
+</style>

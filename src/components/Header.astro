@@ -1,0 +1,209 @@
+---
+const { pathname } = Astro.url;
+const isActive = (href: string) =>
+  pathname === href || pathname.startsWith(href + '/') || pathname === href + '/';
+
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/projects', label: 'Projects' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/android-builds', label: 'Android Builds' },
+];
+---
+
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">⚡️</span>
+      <span class="brand-name">Swift Everywhere</span>
+    </a>
+    <nav>
+      {links.map((link) => (
+        <a
+          href={link.href}
+          class:list={[isActive(link.href) && 'active']}
+        >
+          {link.label}
+        </a>
+      ))}
+      <button
+        id="theme-toggle"
+        type="button"
+        class="theme-toggle"
+        aria-label="Toggle color theme"
+        title="Toggle light/dark theme"
+      >
+        <svg
+          class="icon icon-sun"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2"></path>
+          <path d="M12 20v2"></path>
+          <path d="M4.93 4.93l1.41 1.41"></path>
+          <path d="M17.66 17.66l1.41 1.41"></path>
+          <path d="M2 12h2"></path>
+          <path d="M20 12h2"></path>
+          <path d="M4.93 19.07l1.41-1.41"></path>
+          <path d="M17.66 6.34l1.41-1.41"></path>
+        </svg>
+        <svg
+          class="icon icon-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<script is:inline>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+
+    function currentTheme() {
+      var explicit = document.documentElement.dataset.theme;
+      if (explicit === 'light' || explicit === 'dark') return explicit;
+      return window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light';
+    }
+
+    function syncLabel() {
+      var t = currentTheme();
+      btn.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false');
+      btn.setAttribute(
+        'title',
+        t === 'dark' ? 'Switch to light theme' : 'Switch to dark theme',
+      );
+    }
+
+    btn.addEventListener('click', function () {
+      var next = currentTheme() === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      try {
+        localStorage.setItem('theme', next);
+      } catch (_) {}
+      syncLabel();
+    });
+
+    // React to OS-level changes only when the user has not picked a value.
+    var media = window.matchMedia('(prefers-color-scheme: dark)');
+    var onMediaChange = function () {
+      try {
+        if (!localStorage.getItem('theme')) syncLabel();
+      } catch (_) {
+        syncLabel();
+      }
+    };
+    if (media.addEventListener) media.addEventListener('change', onMediaChange);
+    else if (media.addListener) media.addListener(onMediaChange);
+
+    syncLabel();
+  })();
+</script>
+
+<style>
+  .site-header {
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-bg);
+  }
+  .inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-fg);
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .brand:hover {
+    text-decoration: none;
+  }
+  .brand-mark {
+    color: var(--color-accent);
+    font-size: 1.25rem;
+  }
+  nav {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+  nav a {
+    color: var(--color-muted);
+    font-weight: 500;
+  }
+  nav a.active,
+  nav a:hover {
+    color: var(--color-accent);
+  }
+  .theme-toggle {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    color: var(--color-muted);
+    cursor: pointer;
+    font: inherit;
+    padding: 0.25rem 0.6rem;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .theme-toggle:hover {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+  .theme-toggle .icon {
+    width: 1.05rem;
+    height: 1.05rem;
+    display: block;
+  }
+  /* Show only the icon for the *opposite* theme — clicking it switches to that theme. */
+  .theme-toggle .icon-sun {
+    display: none;
+  }
+  .theme-toggle .icon-moon {
+    display: inline;
+  }
+  :global(:root[data-theme='dark']) .theme-toggle .icon-sun {
+    display: inline;
+  }
+  :global(:root[data-theme='dark']) .theme-toggle .icon-moon {
+    display: none;
+  }
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme='light'])) .theme-toggle .icon-sun {
+      display: inline;
+    }
+    :global(:root:not([data-theme='light'])) .theme-toggle .icon-moon {
+      display: none;
+    }
+  }
+</style>

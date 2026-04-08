@@ -1,0 +1,177 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProjectIcon from '../../components/ProjectIcon.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+
+  return projects.map((project) => {
+    // Default the matching tag to the project's slug if not explicitly set.
+    const tag = (project.data.tag ?? project.id).toLowerCase();
+    const posts = allPosts
+      .filter((post) =>
+        post.data.tags.map((t) => t.toLowerCase()).includes(tag),
+      )
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+    return {
+      params: { slug: project.id },
+      props: { project, posts, tag },
+    };
+  });
+}
+
+const { project, posts, tag } = Astro.props;
+const { Content } = await render(project);
+
+// Inline CSS variables. The derived shades use color-mix() with the page's
+// own --color-bg / --color-fg, which already swap with light/dark mode, so
+// every variant adapts automatically without us having to write two palettes.
+const tintStyle = `--project-tint: ${project.data.tint}`;
+---
+
+<BaseLayout
+  title={project.data.title}
+  description={project.data.description ?? project.data.tagline}
+>
+  <div class="project-page" style={tintStyle}>
+    <article>
+      <header class="hero">
+        <ProjectIcon
+          icon={project.data.icon}
+          tint={project.data.tint}
+          size="3rem"
+        />
+        <div>
+          <h1>{project.data.title}</h1>
+          <p class="lede">{project.data.tagline}</p>
+        </div>
+      </header>
+
+      {project.data.repo && (
+        <p>
+          <a class="button tinted-button" href={project.data.repo}>View on GitHub</a>
+        </p>
+      )}
+
+      <div class="prose">
+        <Content />
+      </div>
+    </article>
+
+    <section class="related">
+      <h2>
+        Blog posts tagged <code>{tag}</code>
+      </h2>
+      {posts.length === 0 ? (
+        <p class="muted">
+          No posts yet. Tag a blog post with <code>{tag}</code> to make it
+          appear here.
+        </p>
+      ) : (
+        <ul class="post-list">
+          {posts.map((post) => (
+            <li>
+              <h3 style="margin: 0;">
+                <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+              </h3>
+              {post.data.description && <p>{post.data.description}</p>}
+              <div class="post-meta">
+                <time datetime={post.data.pubDate.toISOString()}>
+                  {post.data.pubDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </time>
+              </div>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+
+    <p style="margin-top: 2rem;">
+      <a class="tinted-link" href="/projects/">&larr; All projects</a>
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .project-page {
+    /* Derived shades. color-mix blends the project tint with the current
+       theme's foreground/background, so they automatically work in both
+       light and dark mode. */
+    --tint-soft-bg: color-mix(in srgb, var(--project-tint) 14%, var(--color-bg));
+    --tint-border: color-mix(in srgb, var(--project-tint) 55%, var(--color-border));
+    --tint-text: color-mix(in srgb, var(--project-tint) 70%, var(--color-fg));
+    --tint-strong: color-mix(in srgb, var(--project-tint) 88%, var(--color-fg));
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 1.5rem;
+    margin: 0 -1rem 1.5rem;
+    background: var(--tint-soft-bg);
+    border: 1px solid var(--tint-border);
+    border-radius: 12px;
+  }
+  .hero h1 {
+    margin: 0;
+    color: var(--tint-strong);
+  }
+  .hero .lede {
+    margin: 0.25rem 0 0;
+    color: var(--color-muted);
+    font-size: 1.1rem;
+  }
+
+  .prose :global(h2),
+  .prose :global(h3) {
+    color: var(--tint-strong);
+  }
+  .prose :global(a) {
+    color: var(--tint-text);
+  }
+  .prose :global(a:hover) {
+    color: var(--project-tint);
+  }
+  .prose :global(blockquote) {
+    border-left: 4px solid var(--project-tint);
+    background: var(--tint-soft-bg);
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0 6px 6px 0;
+  }
+  .prose :global(code) {
+    background: var(--tint-soft-bg);
+    padding: 0.05rem 0.35rem;
+    border-radius: 4px;
+  }
+
+  .tinted-button {
+    background: var(--project-tint);
+  }
+  .tinted-button:hover {
+    background: var(--tint-strong);
+  }
+  .tinted-link {
+    color: var(--tint-text);
+  }
+  .tinted-link:hover {
+    color: var(--project-tint);
+  }
+
+  .related {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid var(--tint-border);
+  }
+  .related h2 {
+    color: var(--tint-strong);
+  }
+</style>

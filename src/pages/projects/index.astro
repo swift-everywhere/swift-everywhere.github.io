@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProjectIcon from '../../components/ProjectIcon.astro';
+
+const projects = (await getCollection('projects')).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+---
+
+<BaseLayout title="Projects" description="Every Swift Everywhere workstream.">
+  <h1>Projects</h1>
+  <p class="muted">
+    The Swift Everywhere effort is split across one project per platform.
+    Add a new project by dropping a markdown file into
+    <code>src/content/projects/</code>.
+  </p>
+
+  <div class="card-grid">
+    {projects.map((project) => (
+      <a
+        class="card card-link project-card"
+        href={`/projects/${project.id}/`}
+        style={`--project-tint: ${project.data.tint}`}
+      >
+        <ProjectIcon
+          icon={project.data.icon}
+          tint={project.data.tint}
+          size="2rem"
+        />
+        <h3>{project.data.title}</h3>
+        <p>{project.data.tagline}</p>
+      </a>
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .project-card h3 {
+    margin: 0.25rem 0 0;
+  }
+  .project-card:hover {
+    border-color: var(--project-tint);
+  }
+</style>

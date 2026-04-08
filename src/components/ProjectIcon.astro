@@ -1,0 +1,51 @@
+---
+interface Props {
+  icon: string;
+  tint: string;
+  size?: string; // any CSS length
+  label?: string;
+  class?: string;
+}
+
+const {
+  icon,
+  tint,
+  size = '1.75rem',
+  label,
+  class: className,
+} = Astro.props;
+
+const url = `/icons/projects/${icon}.svg`;
+const style = [
+  `--icon-url: url('${url}')`,
+  `--project-tint: ${tint}`,
+  `--icon-size: ${size}`,
+].join('; ');
+---
+
+<span
+  class:list={['project-icon', className]}
+  role={label ? 'img' : undefined}
+  aria-label={label}
+  aria-hidden={label ? undefined : 'true'}
+  style={style}
+></span>
+
+<style>
+  .project-icon {
+    display: inline-block;
+    flex-shrink: 0;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-color: var(--project-tint);
+    -webkit-mask-image: var(--icon-url);
+    mask-image: var(--icon-url);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    vertical-align: middle;
+  }
+</style>

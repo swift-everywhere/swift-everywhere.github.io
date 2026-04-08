@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<BaseLayout title="Blog" description="News and notes from the Swift Everywhere project.">
+  <h1>Blog</h1>
+  <p class="muted">
+    News, deep-dives, and progress reports across every Swift Everywhere
+    workstream.
+  </p>
+
+  {posts.length === 0 ? (
+    <p>No posts yet.</p>
+  ) : (
+    <ul class="post-list">
+      {posts.map((post) => (
+        <li>
+          <h3 style="margin: 0;">
+            <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+          </h3>
+          {post.data.description && <p>{post.data.description}</p>}
+          <div class="post-meta">
+            <time datetime={post.data.pubDate.toISOString()}>
+              {post.data.pubDate.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </time>
+            {post.data.tags.length > 0 && (
+              <span>
+                {' '}· {post.data.tags.map((t) => (
+                  <a href={`/projects/${t}/`} class="tag">{t}</a>
+                ))}
+              </span>
+            )}
+          </div>
+        </li>
+      ))}
+    </ul>
+  )}
+</BaseLayout>
