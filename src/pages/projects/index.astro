@@ -10,11 +10,6 @@ const projects = (await getCollection('projects')).sort(
 
 <BaseLayout title="Projects" description="Every Swift Everywhere workstream.">
   <h1>Projects</h1>
-  <p class="muted">
-    The Swift Everywhere effort is split across one project per platform.
-    Add a new project by dropping a markdown file into
-    <code>src/content/projects/</code>.
-  </p>
 
   <div class="card-grid">
     {projects.map((project) => (
