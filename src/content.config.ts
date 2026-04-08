@@ -41,4 +41,21 @@ const projects = defineCollection({
   }),
 });
 
-export const collections = { blog, projects };
+// Conferences and meetups. The body of each markdown file is rendered as
+// a longer description on the listing page if present. Past events are
+// filtered out at build time by `src/pages/events/index.astro`.
+const events = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/events' }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string(),
+    location: z.string(),
+    startDate: z.coerce.date(),
+    endDate: z.coerce.date().optional(),
+    url: z.string().url(),
+    type: z.enum(['conference', 'meetup']).default('conference'),
+    online: z.boolean().default(false),
+  }),
+});
+
+export const collections = { blog, projects, events };

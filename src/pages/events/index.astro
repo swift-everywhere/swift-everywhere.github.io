@@ -1,0 +1,168 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Filter at build time so past events automatically drop off when the site
+// is rebuilt. We compare against the *end* of the event (so an event is
+// still "upcoming" while it is in progress).
+const now = new Date();
+const all = await getCollection('events');
+const upcoming = all
+  .filter((e) => (e.data.endDate ?? e.data.startDate) >= now)
+  .sort((a, b) => a.data.startDate.valueOf() - b.data.startDate.valueOf());
+
+const dateFormatter = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+function formatRange(start: Date, end?: Date) {
+  if (!end || end.toDateString() === start.toDateString()) {
+    return dateFormatter.format(start);
+  }
+  // Same month? Compact form: "May 18–20, 2026"
+  if (
+    start.getUTCFullYear() === end.getUTCFullYear() &&
+    start.getUTCMonth() === end.getUTCMonth()
+  ) {
+    const month = start.toLocaleString('en-US', {
+      month: 'long',
+      timeZone: 'UTC',
+    });
+    return `${month} ${start.getUTCDate()}–${end.getUTCDate()}, ${start.getUTCFullYear()}`;
+  }
+  return `${dateFormatter.format(start)} – ${dateFormatter.format(end)}`;
+}
+
+// Render any markdown body content for events that have one.
+const rendered = await Promise.all(
+  upcoming.map(async (event) => {
+    const { Content } = await render(event);
+    const hasBody = (event.body ?? '').trim().length > 0;
+    return { event, Content, hasBody };
+  }),
+);
+---
+
+<BaseLayout
+  title="Events"
+  description="Upcoming Swift conferences and meetups around the world."
+>
+  <h1>Events</h1>
+  <p class="muted">
+    A community-curated list of upcoming Swift conferences and meetups
+    around the world. Add a new event by dropping a markdown file into
+    <code>src/content/events/</code>.
+  </p>
+
+  {upcoming.length === 0 ? (
+    <p>No upcoming events on the calendar right now — check back soon.</p>
+  ) : (
+    <ul class="event-list">
+      {rendered.map(({ event, Content, hasBody }) => (
+        <li class="event">
+          <div class="event-when">
+            <time datetime={event.data.startDate.toISOString()}>
+              {formatRange(event.data.startDate, event.data.endDate)}
+            </time>
+          </div>
+          <div class="event-body">
+            <h2>
+              <a href={event.data.url} rel="noopener noreferrer">
+                {event.data.title}
+              </a>
+            </h2>
+            <p class="event-meta">
+              <span class:list={['badge', `badge-${event.data.type}`]}>
+                {event.data.type}
+              </span>
+              <span class="event-location">
+                {event.data.online ? '🌐 ' : ''}
+                {event.data.location}
+              </span>
+            </p>
+            <p>{event.data.summary}</p>
+            {hasBody && (
+              <div class="event-extra">
+                <Content />
+              </div>
+            )}
+          </div>
+        </li>
+      ))}
+    </ul>
+  )}
+</BaseLayout>
+
+<style>
+  .event-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0;
+  }
+  .event {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    gap: 1.25rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .event:last-child {
+    border-bottom: none;
+  }
+  .event-when time {
+    display: inline-block;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    color: var(--color-fg);
+  }
+  .event h2 {
+    margin: 0 0 0.25rem;
+    font-size: 1.25rem;
+  }
+  .event h2 a {
+    color: var(--color-fg);
+  }
+  .event h2 a:hover {
+    color: var(--color-accent);
+  }
+  .event-meta {
+    margin: 0 0 0.5rem;
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .event p {
+    margin: 0.25rem 0;
+  }
+  .badge {
+    display: inline-block;
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    border: 1px solid var(--color-border);
+    background: var(--color-card);
+    color: var(--color-muted);
+  }
+  .badge-conference {
+    border-color: color-mix(in srgb, var(--color-accent) 60%, var(--color-border));
+    color: var(--color-accent);
+  }
+  .badge-meetup {
+    border-color: color-mix(in srgb, #5b6cff 60%, var(--color-border));
+    color: #5b6cff;
+  }
+  @media (max-width: 640px) {
+    .event {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+  }
+</style>
