@@ -29,3 +29,16 @@ Swift ecosystem.
 If you maintain a Swift package, the easiest way to add Android coverage is
 to drop the `swift-android-action` into your existing GitHub Actions
 workflow. Most pure-Swift packages will build with no source changes.
+
+## From swift.org
+
+The Android Workgroup at swift.org is the official home for Swift on
+Android. Their documentation is the best starting point:
+
+- [Getting started with the Swift SDK for Android](https://www.swift.org/documentation/articles/swift-sdk-for-android-getting-started.html)
+  — the official walkthrough for installing the Android SDK for Swift
+  and cross-compiling a Swift package for Android.
+- [Swift Android Workgroup](https://www.swift.org/android-workgroup/) —
+  charter, meeting notes, and roadmap for Swift's official Android effort.
+- [Swift platform support overview](https://www.swift.org/platform-support/)
+  — current support matrix, including Android.

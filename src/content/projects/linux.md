@@ -1,5 +1,5 @@
 ---
-title: Swift on Linux Desktop
+title: Swift on Linux
 tagline: Swift for Linux desktop applications, tooling, and end-user software.
 description: Building native desktop apps and developer tooling on Linux with Swift — distinct from the server workstream's focus on backends and services.
 tag: linux
@@ -38,3 +38,21 @@ look-and-feel, packaging for end users, and integration with the host
 desktop environment. The two have very different constraints and
 audiences, even though they share the same underlying Swift toolchain,
 so we track them as independent workstreams.
+
+## From swift.org
+
+Linux is a tier-1 Swift platform. The official toolchain and SDK
+documentation lives at swift.org:
+
+- [Install Swift on Linux](https://www.swift.org/install/linux/) —
+  packages and instructions for Ubuntu, Debian, Fedora, Amazon Linux,
+  Red Hat UBI, and generic tarballs, plus the recommended
+  [`swiftly`](https://www.swift.org/install/linux/swiftly/) toolchain
+  installer.
+- [Getting started with the Static Linux SDK](https://www.swift.org/documentation/articles/static-linux-getting-started.html)
+  — build fully-statically-linked Swift binaries that run on any Linux
+  distribution without external runtime dependencies. This is
+  particularly useful for distributing desktop apps and command-line
+  tools to end users.
+- [Swift platform support](https://www.swift.org/platform-support/) —
+  the up-to-date Linux distribution and architecture support matrix.
