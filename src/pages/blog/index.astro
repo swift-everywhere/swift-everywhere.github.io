@@ -11,7 +11,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
   <h1>Blog</h1>
   <p class="muted">
     News, deep-dives, and progress reports across every Swift Everywhere
-    workstream.
+    workstream. <a href="/rss.xml">Subscribe via RSS</a>.
   </p>
 
   {posts.length === 0 ? (
