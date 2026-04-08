@@ -4,7 +4,7 @@ tagline: Swift on microcontrollers and bare-metal targets.
 description: Notes on the Embedded Swift language mode, supported chips, and example firmware projects.
 tag: embedded
 icon: memory
-tint: "#f59e0b"
+tint: "#EF4444"
 order: 3
 featured: true
 ---

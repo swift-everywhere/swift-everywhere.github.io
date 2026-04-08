@@ -4,7 +4,7 @@ tagline: Production Swift for backends, services, and tooling.
 description: Patterns, libraries, and deployment notes for running Swift workloads on Linux servers and in containers.
 tag: server
 icon: dns
-tint: "#5b6cff"
+tint: "#06B6D4"
 order: 2
 featured: true
 ---
