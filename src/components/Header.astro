@@ -7,14 +7,14 @@ const links = [
   { href: '/', label: 'Home' },
   { href: '/projects', label: 'Projects' },
   { href: '/blog', label: 'Blog' },
-  { href: '/android-builds', label: 'Android Builds' },
+  //{ href: '/android-builds', label: 'Android Builds' },
 ];
 ---
 
 <header class="site-header">
   <div class="inner">
     <a class="brand" href="/">
-      <span class="brand-mark">⚡️</span>
+      <img class="brand-mark" src="/favicon.svg" alt="" width="24" height="24" />
       <span class="brand-name">Swift Everywhere</span>
     </a>
     <nav>
@@ -146,8 +146,9 @@ const links = [
     text-decoration: none;
   }
   .brand-mark {
-    color: var(--color-accent);
-    font-size: 1.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
   }
   nav {
     display: flex;
