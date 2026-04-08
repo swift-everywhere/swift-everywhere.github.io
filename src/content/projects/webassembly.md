@@ -19,3 +19,17 @@ interop, and binary-size optimisation.
 - SwiftWasm SDK installation and CI integration
 - JavaScriptKit interop and DOM examples
 - Strategies for trimming Wasm binary size
+
+## From swift.org
+
+WebAssembly is now an officially-supported Swift target. The canonical
+starting point lives on swift.org:
+
+- [Getting Started with Swift and WebAssembly](https://www.swift.org/documentation/articles/wasm-getting-started.html)
+  — installs the Wasm SDK with `swiftly`, builds a "hello, world"
+  module, and runs it in a Wasm runtime such as `wasmtime`.
+- [Swift platform support](https://www.swift.org/platform-support/) —
+  the up-to-date list of WebAssembly targets and toolchain releases.
+- [SwiftWasm](https://swiftwasm.org/) — the community project that
+  pioneered Swift on Wasm and continues to maintain JavaScriptKit and
+  related interop libraries.
