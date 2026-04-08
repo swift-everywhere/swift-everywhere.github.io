@@ -4,7 +4,7 @@ tagline: Compile Swift to Wasm and run it in browsers and edge runtimes.
 description: SwiftWasm toolchain, JavaScriptKit, and recipes for shipping Swift to the web.
 tag: webassembly
 icon: language
-tint: "#654ff0"
+tint: "#A855F7"
 order: 4
 featured: true
 ---

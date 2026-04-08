@@ -4,7 +4,7 @@ tagline: Build, run, and ship Swift code on Android devices.
 description: Tooling, packages, and CI infrastructure for building Swift libraries and applications that target Android.
 tag: android
 icon: android
-tint: "#3ddc84"
+tint: "#22C55E"
 order: 1
 featured: true
 repo: https://github.com/swift-everywhere/swift-android-action

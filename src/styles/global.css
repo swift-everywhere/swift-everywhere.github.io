@@ -154,12 +154,22 @@ td {
   margin-top: 0;
 }
 
+/* `.card-link` is applied either to a link inside a card or directly to a
+   card that is itself a link. In both cases the text should use the
+   regular foreground color, not the page accent color. */
+.card-link,
 .card a.card-link {
-  color: inherit;
+  color: var(--color-fg);
 }
 
+.card-link:hover,
 .card a.card-link:hover {
+  color: var(--color-fg);
   text-decoration: none;
+}
+
+.card-link p {
+  color: var(--color-muted);
 }
 
 .tag {
