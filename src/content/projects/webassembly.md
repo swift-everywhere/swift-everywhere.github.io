@@ -1,5 +1,6 @@
 ---
 title: Swift for WebAssembly
+platform: WebAssembly
 tagline: Compile Swift to Wasm and run it in browsers and edge runtimes.
 description: SwiftWasm toolchain, JavaScriptKit, and recipes for shipping Swift to the web.
 tag: webassembly

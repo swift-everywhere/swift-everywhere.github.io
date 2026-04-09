@@ -1,5 +1,6 @@
 ---
 title: Swift on Linux
+platform: Linux
 tagline: Swift for Linux desktop applications, tooling, and end-user software.
 description: Building native desktop apps and developer tooling on Linux with Swift — distinct from the server workstream's focus on backends and services.
 tag: linux

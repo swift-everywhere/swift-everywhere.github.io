@@ -1,5 +1,6 @@
 ---
 title: Swift on Windows
+platform: Windows
 tagline: Native Swift on Windows 10 and 11.
 description: Installer guidance, MSVC interop, and SwiftPM tips for Windows targets.
 tag: windows

@@ -24,6 +24,10 @@ const projects = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/projects' }),
   schema: z.object({
     title: z.string(),
+    // Short platform name used for project summary cards (e.g. "Android",
+    // "WebAssembly"). Distinct from `title` so that landing pages can use
+    // a longer phrasing like "Swift on Android".
+    platform: z.string(),
     tagline: z.string(),
     description: z.string().optional(),
     // Tag used to match blog posts to this project. Defaults to the file slug.

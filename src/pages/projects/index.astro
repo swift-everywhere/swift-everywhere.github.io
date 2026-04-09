@@ -18,13 +18,15 @@ const projects = (await getCollection('projects')).sort(
         href={`/projects/${project.id}/`}
         style={`--project-tint: ${project.data.tint}`}
       >
-        <ProjectIcon
-          icon={project.data.icon}
-          tint={project.data.tint}
-          literal={project.data.iconLiteral}
-          size="2rem"
-        />
-        <h3>{project.data.title}</h3>
+        <div class="project-card-header">
+          <ProjectIcon
+            icon={project.data.icon}
+            tint={project.data.tint}
+            literal={project.data.iconLiteral}
+            size="2rem"
+          />
+          <h3>{project.data.platform}</h3>
+        </div>
         <p>{project.data.tagline}</p>
       </a>
     ))}
@@ -37,8 +39,17 @@ const projects = (await getCollection('projects')).sort(
     flex-direction: column;
     gap: 0.5rem;
   }
+  .project-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
   .project-card h3 {
-    margin: 0.25rem 0 0;
+    margin: 0;
+    font-size: 1.15rem;
+  }
+  .project-card p {
+    margin: 0;
   }
   .project-card:hover {
     border-color: var(--project-tint);

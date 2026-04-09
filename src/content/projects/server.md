@@ -1,5 +1,6 @@
 ---
 title: Swift on the Server
+platform: Server
 tagline: Production Swift for backends, services, and tooling.
 description: Patterns, libraries, and deployment notes for running Swift workloads on Linux servers and in containers.
 tag: server

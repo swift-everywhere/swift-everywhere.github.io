@@ -1,5 +1,6 @@
 ---
 title: Swift on Android
+platform: Android
 tagline: Build, run, and ship Swift code on Android devices.
 description: Tooling, packages, and CI infrastructure for building Swift libraries and applications that target Android.
 tag: android
